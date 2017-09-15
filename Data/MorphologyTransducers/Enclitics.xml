@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Rules>	
+	<Rule>
+		<State id="0" isStart="True" isEnd="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ه" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'ه','c','ضميرالغائب'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ها" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'ها','c','ضميرالغائبة'" />
+				
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="3">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="هما" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'هما','c','ضميرالغائبين'" />
+				
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="هم" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'هم','c','ضميرالغائبين'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="هن" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'هن','c','ضميرالغائبات'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="كم" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'كم','c','ضمير مخاطبين'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="0">
+				<Conditions></Conditions>
+				<Actions></Actions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+			</Transition>
+			<Transition next_state_id="4" consume="0">
+				<Conditions></Conditions>
+				<Actions></Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+			<Transition next_state_id="3" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="كم" />
+				</Conditions>
+				<Actions>		
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'و','c','إشباع الضم'" />
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'كم','c','ضمير مخاطبين'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="م" />
+				</Conditions>
+				<Actions>		
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'و','c','إشباع الضم'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="3"  isEnd="True">
+		</State>
+		<State id="4"  isEnd="True">
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'ك','c','مخاطب'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="3">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="كما" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'كما','c','ضمير مخاطبين'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="كن" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'كن','c','ضمير مخاطبات'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="نا" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'نا','v','ضمير متكلمين'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ني" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'ني','v','ضمير متكلم'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="3">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ونا" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'نا','v','ضمير متكلمين'" />
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'و','c','إشباع الضم'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="3">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ني" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'وني','v','ضمير متكلم'" />
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'و','c','إشباع الضم'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="7" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ي" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Enclitics" type="set.append" value="'ي','n','ضمير متكلم'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="5" isEnd="True">
+		</State>
+		<State id="7" isEnd="True">
+		</State>
+	</Rule>
+</Rules>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/ALP/Controllers/Morphology/Cliticlization</path>
+<path>/ALP/Controllers/Morphology/Compounding</path>
+<path>/ALP/Controllers/Morphology/Derivation</path>
+<path>/ALP/Controllers/Morphology/Inflection</path>
+<path>/ALP/Controllers/Normalization</path>
+<path>/ALP/Controllers/Tagging/OverdueTagging</path>
+<path>/ALP/Controllers/Tagging/PrematureTagging</path>
+<path>/ALP/Controllers/TextEntities</path>
+<path>/ALP/Controllers/Tokenization</path>
+<path>/ALP/Models/Lexicon</path>
+<path>/ALP/Models</path>
+<path>/ALP/Controllers/Morphology</path>
+<path>/ALP/Views/Tagger</path>
+<path>/ALP/Views/MorphologicalAnalyzer</path>
+<path>/ALP/Controllers</path>
+<path>/ALP/Views/Tokenizer</path>
+<path>/ALP/Views/Nomalizer</path>
+<path>/ALP/Views</path>
+<path>/ALP/Controllers/Tagging</path>
+<path>/ALP/Models/Tagging</path>
+<path>/ALP/Models/Lexicon/SpecialWords</path>
+<path>/ALP</path>
+<path>/ALP/Models/Lexicon/RootAndPatterns</path>
+</pydev_pathproperty>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 3.0</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
+</pydev_project>

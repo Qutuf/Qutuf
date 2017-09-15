@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Rules>	
+	<Rule>
+		<State id="0" isStart="True" isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'و','c'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ف','c'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="أ" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'أ','c'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','c'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="1"  isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','c'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2"  isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','c'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="3"  isEnd="True">
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'و','c'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ف','c'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="4"  isEnd="True">			
+		</State>
+		<State id="5"  isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','c'" />
+				</Actions>
+			</Transition>
+		</State>
+	</Rule>
+
+
+	<Rule>
+		<State id="0" isStart="True" isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="أ" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ا" />
+				</Conditions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="6" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="7" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="8" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="1"  isEnd="False">
+			<Transition next_state_id="11" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="12" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="8" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="17" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2"  isEnd="True">			
+		</State>
+		<State id="3"  isEnd="False">
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="4"  isEnd="True">
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="5"  isEnd="True">
+			<Transition next_state_id="8" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="16" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="6"  isEnd="False">
+			<Transition next_state_id="9" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'و','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="16" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="8" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="7"  isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="8" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="10" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="8"  isEnd="True">
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="9"  isEnd="True">			
+		</State>
+		<State id="10"  isEnd="True">			
+		</State>
+		<State id="11"  isEnd="False">
+			<Transition next_state_id="15" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="14" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="13" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="12"  isEnd="False">
+			<Transition next_state_id="15" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="14" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ك" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ك','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="13" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ب" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ب','n'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="13"  isEnd="True">
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="14"  isEnd="True">
+			<Transition next_state_id="2" consume="2">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ال" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ال','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="15"  isEnd="True">
+			<Transition next_state_id="10" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="16"  isEnd="True">
+			<Transition next_state_id="10" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','n'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="17"  isEnd="True">
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'ل','n'" />
+				</Actions>
+			</Transition>
+		</State>
+	</Rule>	
+	<Rule>
+		<State id="0" isStart="True" isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="أ" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+		</State>
+		<State id="1"  isEnd="True">			
+		</State>
+		<State id="2"  isEnd="False">
+			<Transition next_state_id="6" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="و" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="7" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ف" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+		</State>
+		<State id="3"  isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+		</State>
+		<State id="4"  isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="5" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="ل" />
+				</Conditions>
+				<Actions>
+				</Actions>
+			</Transition>
+		</State>
+		<State id="5"  isEnd="True">			
+		</State>
+		<State id="6"  isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="7"  isEnd="False">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="س" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="GreedyMorphemes.Proclitics" type="set.append" value="'س','v'" />
+				</Actions>
+			</Transition>
+		</State>
+	</Rule>	
+</Rules>

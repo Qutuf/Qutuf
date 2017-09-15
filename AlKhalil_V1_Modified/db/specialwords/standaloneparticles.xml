@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<particles>
+	<particle unvoweledform="من" voweledform="مِنْ" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C1C2C3N1">
+	</particle>
+	<particle unvoweledform="إلى" voweledform="إِلَى" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إلي" voweledform="إِلَيْ" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C2C3">
+	</particle>
+	<particle unvoweledform="عن" voweledform="عَنْ" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C1C2C3N1">
+	</particle>
+	<particle unvoweledform="على" voweledform="عَلَى" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="علي" voweledform="عَلَيْ" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C2C3">
+	</particle>
+	<particle unvoweledform="في" voweledform="فِيْ" type="حرف جر" prefixeclass="C1C2C3C4" suffixeclass="C1C2C3">
+	</particle>
+	<particle unvoweledform="مذ" voweledform="مُذْ" type="حرف جر" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="منذ" voweledform="مُنْذُ" type="حرف جر" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="رب" voweledform="رُبَّ" type="حرف جر" prefixeclass="C1C2C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="حتى" voweledform="حَتىَّ" type="حرف جر" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="ثم" voweledform="ثُمَّ" type="حرف عطف" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="أو" voweledform="أَوْ" type="حرف عطف" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="أم" voweledform="أَمْ" type="حرف عطف" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لا" voweledform="لاَ" type="حرف عطف" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لكن" voweledform="لَكِنْ" type="حرف عطف" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="بل" voweledform="بَلْ" type="حرف عطف" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="حتى" voweledform="حَتَّى" type="حرف عطف" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لم" voweledform="لَمْ" type="حرف جزم" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لما" voweledform="لَمَّا" type="حرف جزم" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لا" voweledform="لاَ" type="حرف جزم" prefixeclass="C1C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إذما" voweledform="إِذْمَا" type="حرف جزم" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إن" voweledform="إِنْ" type="حرف شرط" prefixeclass="C1C2C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إذما" voweledform="إِذْمَاْ" type="حرف شرط" prefixeclass="C1C2C4" suffixeclass="C1">
+	</particle>
+	
+	<!--
+	الأحرف الناسخة هي الأحرف مشبّهة بالفعل
+	-->
+	<particle unvoweledform="إن" voweledform="إِنَّ" type="حرف ناسخ" prefixeclass="C1C2C3C4" suffixeclass="C1C2C3V1">
+	</particle>
+	<particle unvoweledform="أن" voweledform="أَنَّ" type="حرف ناسخ" prefixeclass="C1C2C3C4" suffixeclass="C1C2C3V1">
+	</particle>
+	<particle unvoweledform="ليت" voweledform="لَيْتَ" type="حرف ناسخ" prefixeclass="C1C2" suffixeclass="C1C2C3V1">
+	</particle>
+	<particle unvoweledform="لكن" voweledform="لَكِنَّ" type="حرف ناسخ" prefixeclass="C1C2" suffixeclass="C1C2C3V1">
+	</particle>
+	<particle unvoweledform="لعل" voweledform="لَعَلَّ" type="حرف ناسخ" prefixeclass="C1C2" suffixeclass="C1C2C3V1">
+	</particle>
+	<particle unvoweledform="كأن" voweledform="كَأَنَّ" type="حرف ناسخ" prefixeclass="C1C2C3" suffixeclass="C1C2C3V1">
+	</particle>
+	
+	<particle unvoweledform="أن" voweledform="أَنْ" type="حرف نصب" prefixeclass="C1C2C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="لن" voweledform="لَنْ" type="حرف نصب" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="كي" voweledform="كَيْ" type="حرف نصب" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إذن" voweledform="إِذَنْ" type="حرف نصب" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="حتى" voweledform="حَتَّى" type="حرف نصب" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="قد" voweledform="قَدْ" type="حرف تحقيق" prefixeclass="C1C2C4" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="يا" voweledform="ياَ" type="حرف نداء" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="أيا" voweledform="أَيَا" type="حرف نداء" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="هيا" voweledform="هَيَا" type="حرف نداء" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="أي" voweledform="أَيْ" type="حرف نداء" prefixeclass="C1" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="هل" voweledform="هَلْ" type="حرف استفهام" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="إلا" voweledform="إِلاَّ" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1C2C3N1">
+	</particle>
+	<particle unvoweledform="غير" voweledform="غَيْر" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1C2C3N1">
+	</particle>
+	<particle unvoweledform="سوى" voweledform="سِوَى" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1">
+	</particle>
+	<particle unvoweledform="خلا" voweledform="خلاَ" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1C2C3">
+	</particle>
+	<particle unvoweledform="عدا" voweledform="عَدَا" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1C2C3">
+	</particle>
+	<particle unvoweledform="حاشا" voweledform="حَاشَا" type="حرف استثناء" prefixeclass="C1C2" suffixeclass="C1C2C3">
+	</particle>
+	
+	<particle unvoweledform="سوف" voweledform="سَوْفَ" type="حرف استقبال" prefixeclass="C1C2" suffixeclass="C1C2C3">
+	</particle>
+</particles>

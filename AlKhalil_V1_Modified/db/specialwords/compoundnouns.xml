@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+تحتاج إلى مراجعة....
+-->
+<nouns>
+	<noun unvoweledform="كيت كيت" voweledform="كَيْتَ كَيْتَ" type="كناية" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"> <!-- كناية-->
+	</noun>
+	<noun unvoweledform="كيت وكيت" voweledform="كَيْتَ وَكَيْتَ" type="كناية" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"> <!-- كناية-->
+	</noun>
+	<noun unvoweledform="ذيت ذيت" voweledform="ذَيْتَ ذَيْتَ" type="كناية" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"> <!-- كناية-->
+	</noun>
+	<noun unvoweledform="ذيت وذيت" voweledform="ذَيْتَ وَذَيْتَ" type="كناية" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"> <!-- كناية-->
+	</noun>
+	
+	<!--
+	اسم مبني على فتح الجزأين
+	-->
+	<noun unvoweledform="بين بين" voweledform="بَيْنَ بَيْنَ" type="ظرف مكان" case="ن" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"><!-- ظرف مكان-->
+	</noun>
+	<noun unvoweledform="بيت بيت" voweledform="بَيْتَ بَيْتَ" type="ظرف مكان" case="ن" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"><!-- ظرف مكان-->
+	</noun>
+	<noun unvoweledform="صباح مساء" voweledform="صَبَاْحَ مَسَاْءَ" type="ظرف زمان" case="ن" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"><!--ظرف زمان -->
+	</noun>
+	<noun unvoweledform="شذر مذر" voweledform="شَذَرَ مَذَرَ" type="اسم جامد" definiteness="ن"  prefixeclass="C1" suffixeclass="C1"><!-- اسم جامد-->
+	</noun>
+</nouns>

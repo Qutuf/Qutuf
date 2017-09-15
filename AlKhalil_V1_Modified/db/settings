@@ -1,0 +1,9 @@
+dbchoice=false
+vowchoice=true
+prefchoice=true
+stemchoice=true
+typechoice=true
+patternchoice=true
+rootchoice=true
+poschoice=true
+suffixchoice=true

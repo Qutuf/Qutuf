@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<nouns>
+	<!--
+	قسم الأسماء 
+	-->	
+	<!-- بيانات الكناية تحتاج إلى مراجعة -->
+	<noun unvoweledform="كذا" voweledform="كَذَاْ" type="كناية" definiteness="ن" gender="ك" case="ك" number="ك" prefixeclass="C1C2N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="كأين" voweledform="كَأَيِّنْ" type="كناية" definiteness="ن" gender="ك" case="ك" number="ك" prefixeclass="C1C2N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="فلان" voweledform="فُلَاْن" type="كناية" definiteness="ن" gender="ذ" case="ك" number="1" prefixeclass="C1C2N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="فلانة" voweledform="فُلَاْنَة" type="كناية" definiteness="ن" gender="ث" case="ك" number="1" prefixeclass="C1C2N4" suffixeclass="C1">
+	</noun>
+	
+	<noun unvoweledform="من" voweledform="مَنْ" type="اسم شرط" definiteness="ن" prefixeclass="C1C2C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ما" voweledform="مَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="مهما" voweledform="مَهْمَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنى" voweledform="أَنَّى" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<noun unvoweledform="متى" voweledform="مَتَى" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أيان" voweledform="أَيَّانَ" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<noun unvoweledform="أي" voweledform="أَيّ" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أيما" voweledform="أَيُّمَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<noun unvoweledform="أين" voweledform="أَيْنَ" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أينما" voweledform="أَيْنَمَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<noun unvoweledform="كيفما" voweledform="كَيْفَمَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	
+	<noun unvoweledform="حيثما" voweledform="حَيْثُمَا" type="اسم شرط" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<!--
+	في محل نصب على الظرفية وهي نكرات
+	-->	
+	<noun unvoweledform="إذا" voweledform="إِذَا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="متى" voweledform="مَتَى" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أيان" voweledform="أيَّانَ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="إذ" voweledform="إِذْ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أمس" voweledform="أَمْسِ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="الآن" voweledform="الآنَ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2C3" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="مذ" voweledform="مُذْ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="منذ" voweledform="مُنْذُ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="قط" voweledform="قَطُّ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="بينا" voweledform="بَيْنَا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="بينما" voweledform="بَيْنَمَا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ريثما" voweledform="رَيْثَمَا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="لما" voweledform="لَمَّا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="حيث" voweledform="حَيْثُ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="لدى" voweledform="لَدَى" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هنا" voweledform="هُنَا" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2C3" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ثم" voweledform="ثَمَّ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أين" voweledform="أَيْنَ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنى" voweledform="أَنَّى" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="لدن" voweledform="لَدُنْ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="عوض" voweledform="عَوْضُ" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="قبل" voweledform="قَبْل" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2C3" suffixeclass="C1C2C3N1">
+	</noun>
+	<noun unvoweledform="بعد" voweledform="بَعْد" type="ظرف" case="ن" definiteness="ن" prefixeclass="C1C2C3" suffixeclass="C1C2C3N1">
+	</noun>
+	
+	<!--
+	ضمائر رفع منفصلة
+	-->
+	<noun unvoweledform="أنا" voweledform="أَنَا" type="ضمير منفصل" definiteness="م" gender="ك" case="ر" number="1" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="نحن" voweledform="نَحْنُ" type="ضمير منفصل" definiteness="م" gender="ك" case="ر" number="3" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنت" voweledform="أنْتَ" type="ضمير منفصل" definiteness="م" gender="ث" case="ر" number="1" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنت" voweledform="أنْتِ" type="ضمير منفصل" definiteness="م" gender="ذ" case="ر" number="1" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنتما" voweledform="أنْتُمَا" type="ضمير منفصل" definiteness="م" gender="ك" case="ر" number="2" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنتم" voweledform="أنْتُمْ" type="ضمير منفصل" definiteness="م" gender="ك" case="ر" number="3" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="أنتن" voweledform="أنْتُنَّ" type="ضمير منفصل" definiteness="م" gender="ث" case="ر" number="3" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هو" voweledform="هُوَ" type="ضمير منفصل" definiteness="م" gender="ذ" case="ر" number="1" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هي" voweledform="هِيَ" type="ضمير منفصل" definiteness="م" gender="ث" case="ر" number="1" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هما" voweledform="هُمَا" type="ضمير منفصل" definiteness="م" gender="ك" case="ر" number="2" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هم" voweledform="هُمْ" type="ضمير منفصل" definiteness="م" gender="ذ" case="ر" number="3" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هن" voweledform="هُنَّ" type="ضمير منفصل" definiteness="م" gender="ث" case="ر" number="3" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	
+	
+	<!--
+	ضمائر النصب هي منصوبة
+	-->
+	    <noun unvoweledform="إياي" voweledform="إيّايَ" type="ضمير نصب" definiteness="م" gender="ذ" case="ن" number="1" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياك" voweledform="إيّاكَ" type="ضمير نصب" definiteness="م" gender="ذ" case="ن" number="1" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياك" voweledform="إيّاكِ" type="ضمير نصب" definiteness="م" gender="ث" case="ن" number="1" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياه" voweledform="إيّاهُ" type="ضمير نصب" definiteness="م" gender="ذ" case="ن" number="1" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياها" voweledform="إيّاهَا" type="ضمير نصب" definiteness="م" gender="ث" case="ن" number="1" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إيانا" voweledform="إيّانَا" type="ضمير نصب" definiteness="م" gender="ك" case="ن" number="ك" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياكما" voweledform="إيّاكُما" type="ضمير نصب" definiteness="م" gender="ك" case="ن" number="2" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياهما" voweledform="إيّاهُما" type="ضمير نصب" definiteness="م" gender="ك" case="ن" number="2" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياكم" voweledform="إيّاكُم" type="ضمير نصب" definiteness="م" gender="ذ" case="ن" number="3" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياكن" voweledform="إيّاكُنَّ" type="ضمير نصب" definiteness="م" gender="ث" case="ن" number="3" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياهم" voweledform="إيّاهُمْ" type="ضمير نصب" definiteness="م" gender="ذ" case="ن" number="3" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	         <noun unvoweledform="إياهن" voweledform="إيّاهُنَّ" type="ضمير نصب" definiteness="م" gender="ث" case="ن" number="3" prefixeclass="C1C2" suffixeclass="C1">
+	</noun>
+	
+	<!--
+	أسماء الإشارة والأسماء الموصولة تكون مرفوعة أو منصوبة أو مجرورة
+	-->
+	<noun unvoweledform="ذا" voweledform="ذَا" type="اسم إشارة" definiteness="م" gender="ذ"  number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="هذا" voweledform="هَذا" type="اسم إشارة" definiteness="م" gender="ذ" number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="هذه" voweledform="هَذه" type="اسم إشارة" definiteness="م" gender="ث" number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ذي" voweledform="ذيْ" type="اسم إشارة" definiteness="م" gender="ث" number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="ذه" voweledform="ذِهْ" type="اسم إشارة" definiteness="م" gender="ث" number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="تي" voweledform="تِيْ" type="اسم إشارة" definiteness="م" gender="ث"  number="1" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="ته" voweledform="تِهْ" type="اسم إشارة" definiteness="م" gender="ث"  number="1" case="ك" prefixeclass="C1CC2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ذان" voweledform="ذانِ" type="اسم إشارة" definiteness="م" gender="ذ"  number="2" case="ر" prefixeclass="C1C2C3C4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="ذين" voweledform="ذَيْنِِ" type="اسم إشارة" definiteness="م" gender="ث"  number="2" case="نج" prefixeclass="C1C2C3C4N4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="تان" voweledform="تانِ" type="اسم إشارة" definiteness="م" gender="ث"  number="2" case="ر" prefixeclass="C1C2C3C4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="تين" voweledform="تَيْنِ" type="اسم إشارة" definiteness="م" gender="ث"  number="2" case="نج" prefixeclass="C1C2C3C4N4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="أولاء" voweledform="أوُلاءِ" type="اسم إشارة" definiteness="م" gender="ذ"  number="3" case="ك" prefixeclass="C1C2C3C4" suffixeclass="C1C2">
+	</noun>
+	<noun unvoweledform="أولى" voweledform="أُولىَ" type="اسم إشارة" definiteness="م" gender="ك"  number="ك" case="ك" prefixeclass="C1C2C3C4" suffixeclass="C1">
+	</noun>
+	
+	
+	<noun unvoweledform="الذي" voweledform="الذِي" type="اسم موصول خاص" definiteness="م" gender="ذ"  number="1" case="ك" prefixeclass="C1C2C3N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="التي" voweledform="التِي" type="اسم موصول خاص" definiteness="م" gender="ث"  number="1" case="ك" prefixeclass="C1C2C3N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللذان" voweledform="اللَّذانِ" type="اسم موصول خاص" definiteness="م" gender="ذ"  number="2" case="ر" prefixeclass="C1C2C3" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللذين" voweledform="اللَّذَيْنِ" type="اسم موصول خاص" definiteness="م" gender="ذ"  number="2" case="نج" prefixeclass="C1C2C3N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللتان" voweledform="اللَّتَانِ" type="اسم موصول خاص" definiteness="م" gender="ث"  number="2" case="ر" prefixeclass="C1C2C3" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللتين" voweledform="اللَّتَيْنِ" type="اسم موصول خاص" definiteness="م" gender="ث"  number="2" case="نج" prefixeclass="C1C2C3N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="الذين" voweledform="الذِينَ" type="اسم موصول خاص" definiteness="م" gender="ذ"  number="3" case="ك" prefixeclass="C1C2C3N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللاتي" voweledform="اللاَّتِي" type="اسم موصول خاص" definiteness="م" gender="ث"  number="3" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللائي" voweledform="اللاَّئِي" type="اسم موصول خاص" definiteness="م" gender="ث"  number="3" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="اللواتي" voweledform="اللَّواتِي" type="اسم موصول خاص" definiteness="م" gender="ث"  number="3" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="من" voweledform="مَنْ" type="اسم موصول مشترك" definiteness="م" gender="ك"  number="ك" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+	<noun unvoweledform="ما" voweledform="مَا" type="اسم موصول مشترك" definiteness="م" gender="ك"  number="ك" case="ك" prefixeclass="C1C2C3C4N4" suffixeclass="C1">
+	</noun>
+</nouns>

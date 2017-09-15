@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<patterns>
+		<pattern value="استفعلتما" rules="456 45ي" ids="2235 2286 2287 2288 2439 2440 2525 2526 2563 2564"/>
+		<pattern value="استفعلنان" rules="456" ids="2356 2357 2358 2386 2387 2388"/>
+		<pattern value="استفعيتما" rules="45و" ids="2322 2323 2324 2583 2584"/>
+		<pattern value="استفعينان" rules="45و" ids="2410 2411 2412"/>
+		<pattern value="افعاللتما" rules="235" ids="3726"/>
+		<pattern value="افعاللنان" rules="236" ids="3736"/>
+		<pattern value="افعنللتما" rules="2356" ids="3928 3929 3930 4226 4227 4249"/>
+		<pattern value="افعنللنان" rules="2356" ids="3955 3956 3957 3976 3977"/>
+		<pattern value="افعوعلتما" rules="236" ids="4040 4041 4266"/>
+		<pattern value="افعوليتما" rules="23و" ids="4084 4085 4086 4283 4284"/>
+		<pattern value="تتفاعلنان" rules="356" ids="4577 4683 4684 4685 9510 9511"/>
+		<pattern value="تتفاعينان" rules="35و" ids="4765 4766 4767 9565 9566"/>
+		<pattern value="تتفاولنان" rules="3و6" ids="4872 4873 4874 9639 9640"/>
+		<pattern value="تتفعللنان" rules="3456" ids="4947 5167 5249 5250 5251 9893 9894"/>
+		<pattern value="تستفعلنان" rules="456" ids="10131 10208 10209 5673 5674 5675 5748 5749 5750"/>
+		<pattern value="تستفعينان" rules="45و" ids="10263 10264 5799 5800 5801"/>
+		<pattern value="تفعاللنان" rules="236" ids="8326"/>
+		<pattern value="تفعنللنان" rules="2356" ids="13904 13905 8732 8733 8734 8787 8788"/>
+		<pattern value="يتفاعلنان" rules="356" ids="17602 17657 17658 17659 20076 20077"/>
+		<pattern value="يتفاعينان" rules="35و" ids="17708 17709 17710 20111 20112"/>
+		<pattern value="يتفاولنان" rules="3و6" ids="17770 17771 17772 20155 20156"/>
+		<pattern value="يتفعللنان" rules="3456" ids="17813 17940 17984 17985 17986 20307 20308"/>
+		<pattern value="يستفعلنان" rules="456" ids="18204 18205 18206 18252 18253 18254 20443 20490 20491"/>
+		<pattern value="يستفعينان" rules="45و" ids="18288 18289 18290 20527 20528"/>
+		<pattern value="يفعاللنان" rules="236" ids="19376"/>
+		<pattern value="يفعنللنان" rules="2356" ids="19603 19604 19605 19637 19638 22585 22586"/>
+
+</patterns>

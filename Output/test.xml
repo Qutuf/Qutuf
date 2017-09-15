@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Text>
+	<Sentence original_string="ما وجدت من خير فمن الله, وما وجدت غير ذلك فهو من تقصيرنا.">
+		<Word number_of_possibilities="2" original_string="ما">
+			<SurfaceFormMorphemes certainty="0.9296875" voweled_form="مَا">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مرفوع أو منصوب أو مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,nag,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مَا">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, ؟, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,؟,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="32" original_string="وجدت">
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجِدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, مُتعدٍ, ؟, -, مزيد" tag="v,f,s,t,-,p,a,obt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, مُتعدٍ, ؟, -, مزيد" tag="v,f,s,t,-,p,a,obt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجَدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجِدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجُدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجُدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجَدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجَدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجِدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجِدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وُجِدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فُعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فُعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وُجِدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وَجِدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وَجِدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وُجِدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وُجِدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="15" original_string="من">
+			<SurfaceFormMorphemes certainty="1.0" voweled_form="مِنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9736328125" voweled_form="مَنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مرفوع أو منصوب أو مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,nag,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مَنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فَعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مَنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, ؟, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,؟,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مَنِّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مني" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مُنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مِنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="5" original_string="خير">
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="خَيَّرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مزيد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="خير" root="خير" unoweled="فعل" voweled="فَعَّلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="خِيرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="خير" root="خور" unoweled="فيل" voweled="فِيلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="خُيِّرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مزيد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="خير" root="خير" unoweled="فعل" voweled="فُعِّلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="خِيرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="خير" root="خير" unoweled="فعل" voweled="فِعلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="خَيِّرْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="خير" root="خير" unoweled="فعل" voweled="فَعِّلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="30" original_string="فمن">
+			<SurfaceFormMorphemes certainty="1.0" voweled_form="فَمِنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="1.0" voweled_form="فَمِنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9736328125" voweled_form="فَمَنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مرفوع أو منصوب أو مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,nag,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9736328125" voweled_form="فَمَنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مرفوع أو منصوب أو مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,nag,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9296875" voweled_form="فَمَنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مرفوع أو منصوب أو مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,nag,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9296875" voweled_form="فَمَنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مرفوع أو منصوب أو مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,nag,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمَنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فَعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمَنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فَعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمَنِّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مني" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمُنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمِنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمَنِّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مني" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمُنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَمِنْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="فَمُنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="فَمِنَّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="0" original_string="الله"/>
+		<Word number_of_possibilities="0" original_string=", "/>
+		<Word number_of_possibilities="8" original_string="وما">
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,g,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,g,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,g,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف قسَم, ظاهر" tag="p,q"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,g,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,g,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,g,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,g,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="وَمَا">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف قسَم, ظاهر" tag="p,q"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, مجرور, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,g,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="32" original_string="وجدت">
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجِدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, مُتعدٍ, ؟, -, مزيد" tag="v,f,s,t,-,p,a,obt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="وَجَدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, مُتعدٍ, ؟, -, مزيد" tag="v,f,s,t,-,p,a,obt,؟">
+					<Pattern Lemma="جدت" root="جدو" unoweled="فعت" voweled="فَعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجَدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجِدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجُدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8359375" voweled_form="وَجُدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجَدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجَدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعَلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجِدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجِدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,i,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فَعِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وُجِدَتْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلَتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فُعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدَّتْ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جدد" unoweled="فعت" voweled="فُعَّتْ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="وَجُدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,a,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فُلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وُجِدْتُ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وَجِدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.78125" voweled_form="وَجِدْتُ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر أو مؤنث, مفرد, مسند إلى المتكلّم, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,mf,s,f,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتُ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر أو مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,mf,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وُجِدْتَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وُجِدْتِ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="وجدت" root="وجد" unoweled="فعلت" voweled="فُعِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتَ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.75" voweled_form="وَجِدْتِ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, لا محل له من الإعراب, ظاهر" tag="p,%"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى المخاطب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,s,-,p,p,iobt,؟">
+					<Pattern Lemma="جدت" root="جود" unoweled="فلت" voweled="فِلْتِ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="6" original_string="غير">
+			<SurfaceFormMorphemes certainty="0.96484375" voweled_form="غَيْر">
+				<Proclitcs/>
+				<Cliticless arabic_description="حرف, حرف استثناء, ظاهر" tag="p,x"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="غَيَّرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مزيد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="غير" root="غير" unoweled="فعل" voweled="فَعَّلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="غِيرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="غير" root="غور" unoweled="فيل" voweled="فِيلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="غُيِّرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مزيد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="غير" root="غير" unoweled="فعل" voweled="فُعِّلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="غِيرَ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="غير" root="غير" unoweled="فعل" voweled="فِعلَ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="غَيِّرْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="غير" root="غير" unoweled="فعل" voweled="فَعِّلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="0" original_string="ذلك"/>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="6" original_string="فهو">
+			<SurfaceFormMorphemes certainty="0.90625" voweled_form="فَهُو">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, مفرد, ؟, مرفوع أو منصوب أو مجرور, اسم علم, معرفة, ظاهر" tag="n,؟,s,؟,nag,n,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.90625" voweled_form="فَهُو">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, ؟, مفرد, ؟, مرفوع أو منصوب أو مجرور, اسم علم, معرفة, ظاهر" tag="n,؟,s,؟,nag,n,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.875" voweled_form="فَهُوَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.875" voweled_form="فَهُوَ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,m,s,؟,n,p,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَهَوِّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, حرف عطف, ظاهر" tag="p,c"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,obt,؟">
+					<Pattern Lemma="هو" root="هوي" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="فَهَوِّ">
+				<Proclitcs>
+					<Proclitc arabic_description="حرف, استئناف, ظاهر" tag="p,e"/>
+				</Proclitcs>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,obt,؟">
+					<Pattern Lemma="هو" root="هوي" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="15" original_string="من">
+			<SurfaceFormMorphemes certainty="1.0" voweled_form="مِنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="حرف, حرف جر, ظاهر" tag="p,p"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.9736328125" voweled_form="مَنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, مذكر أو مؤنث, مفرد أو مثنى أو جمع, ؟, مرفوع أو منصوب أو مجرور, اسم موصول مشترك, معرفة, ظاهر" tag="n,mf,sdp,؟,nag,c,d"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مَنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فَعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.859375" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,a,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,m,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد" tag="v,f,s,t,-,p,p,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.8125" voweled_form="مَنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="اسم, ؟, ؟, ؟, ؟, اسم شرط, نكرة, ظاهر" tag="n,؟,؟,؟,؟,h,i"/>
+				<Enclitics/>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="منن" unoweled="فع" voweled="فُعَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مَنِّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مني" unoweled="فع" voweled="فَعِّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مُنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.5" voweled_form="مِنْ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,m,s,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلْ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر" tag="n,m,s,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="مُنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مون" unoweled="فل" voweled="فُلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+			<SurfaceFormMorphemes certainty="0.25" voweled_form="مِنَّ">
+				<Proclitcs/>
+				<Cliticless arabic_description="فعل, مؤنث, جمع, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مجرد" tag="v,f,p,s,-,i,-,iobt,؟">
+					<Pattern Lemma="من" root="مين" unoweled="فل" voweled="فِلَّ"/>
+				</Cliticless>
+				<Enclitics>
+					<Enclitic arabic_description="اسم, مؤنث, جمع, ؟, مرفوع, ضمير رفع, معرفة, ظاهر" tag="n,f,p,؟,n,p,d"/>
+				</Enclitics>
+			</SurfaceFormMorphemes>
+		</Word>
+		<Word number_of_possibilities="0" original_string=" "/>
+		<Word number_of_possibilities="0" original_string="تقصيرنا"/>
+		<Word number_of_possibilities="0" original_string="."/>
+	</Sentence>
+</Text>

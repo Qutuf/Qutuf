@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Rules>	
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(السبت)$" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Stop Word', 1]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+</Rules>

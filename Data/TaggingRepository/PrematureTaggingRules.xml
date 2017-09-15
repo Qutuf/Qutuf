@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Rules>
+    <!--<Rule>
+        <State id="0" isStart="True">
+            <Transition next_state_id="1" consume="1">
+                <Conditions>
+                    <Condition attribute_name="String" type="str" value="أحمد" />
+                </Conditions>
+                <Actions>
+                    <Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Noun', 0.99]" />
+                </Actions>
+            </Transition>
+        </State>
+        <State id="1" isEnd="True">
+        </State>
+    </Rule>-->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^([إا]ذا|كل|عند|حيث|حيثما|كلما|عندما|[إا]ذاما])$" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^ما$" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Particle', 0.95]" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(?!ما)" />
+					<!-- لا تبدأ بـ الـ ولا تنتهي بـ ا -->
+					<Condition attribute_name="String" type="str" value="^(?!ال)" />
+					<Condition attribute_name="String" type="str" value="[^ا]$" />
+				</Conditions>	
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Verb', 0.99]" />
+				</Actions>			
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(?!ما)" />
+					<!-- لا تبدأ بـ الـ وتنتهي بـ ا -->
+					<Condition attribute_name="String" type="str" value="^(?!ال).*?ا" />
+				</Conditions>	
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Verb', 0.90]" />
+				</Actions>			
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(إلى|أمام|باتجاه|بعد|بين|تحت|خارج|خلال|عبر|على|فوق|في|قبل|قريب|منذ|وراء)$" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(أن)$" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Particle', 0.9]" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="3" consume="1">
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Noun', 0.9]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Verb', 0.9]" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="3" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(يا|ياأيها|ياأيتها)$" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="2" consume="1">
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Verb', -1]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(أيها|أيتها)$" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="2" consume="1">
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Noun', 0.95]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(ما)$" />
+				</Conditions>
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value=".*?" />
+				</Conditions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(خلا|عدا|حاشى)$" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Verb', 0.95]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="String" type="str" value="^(خلا|عدا|حاشى)$" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="PrematureTags" type="set.append" value="['Particle', 0.95]" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="3" isEnd="True">
+		</State>
+	</Rule>
+</Rules>

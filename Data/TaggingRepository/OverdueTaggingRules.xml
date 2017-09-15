@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Rules>	
+	<!-- إلى وإلى أن-->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="SecondNormalizationForm" type="str" value="إلى" />
+				</Conditions>
+			</Transition>
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Particle" />
+					<Condition attribute_name="SubClass" type="pos.rules" value="ParticlePOS.ParticlePOSConstants.SubClass.Preposition" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="1" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="1" isEnd="True">
+			<Transition next_state_id="3" consume="1">
+				<Conditions>
+					<Condition attribute_name="SecondNormalizationForm" type="str" value="أن" />
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Particle" />
+					<Condition attribute_name="SubClass" type="pos.rules" value="ParticlePOS.ParticlePOSConstants.SubClass.Accusative" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="1" />
+				</Actions>
+			</Transition>
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Noun" />
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="CliticlessPOS.CliticlessPOSConstants.CaseAndMood.GenitiveOrJussive" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.9" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="2" isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Noun" />
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="CliticlessPOS.CliticlessPOSConstants.CaseAndMood.GenitiveOrJussive" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.9" />
+				</Actions>
+			</Transition>
+		</State>
+		<State id="3" isEnd="True">
+			<Transition next_state_id="4" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Verb" />
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Aspect.Imperfective" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.9" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="4" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- MainClass -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Particle" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.75" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Noun" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.5" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Verb" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- CaseAndMood -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="CliticlessPOS.CliticlessPOSConstants.CaseAndMood.NominativeOrIndicative" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.50" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="CliticlessPOS.CliticlessPOSConstants.CaseAndMood.AccusativeOrSubjunctive" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="CaseAndMood" type="pos.rules" value="CliticlessPOS.CliticlessPOSConstants.CaseAndMood.GenitiveOrJussive" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- Verb Aspect -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Aspect" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Aspect.Perfective" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.5" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Aspect" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Aspect.Imperfective" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Aspect" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Aspect.Imperative" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- Active -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Activeness" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Activeness.Active" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Activeness" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Activeness.Passive" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	
+	<!-- Definiteness -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Definiteness" type="pos.rules" value="NominalPOS.NominalPOSConstants.Definiteness.Definite" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Definiteness" type="pos.rules" value="NominalPOS.NominalPOSConstants.Definiteness.Indefinite" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- Gender -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Gender" type="pos.rules" value="NominalPOS.NominalPOSConstants.Definiteness.Masculine" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Gender" type="pos.rules" value="NominalPOS.NominalPOSConstants.Definiteness.Feminine" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	<!-- Number -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Number" type="pos.rules" value="NominalPOS.NominalPOSConstants.Number.Singular" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.5" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Number" type="pos.rules" value="NominalPOS.NominalPOSConstants.Number.Plural" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Number" type="pos.rules" value="NominalPOS.NominalPOSConstants.Number.Dual" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	
+	<!-- Person -->
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Person" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Person.Third_Person" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.25" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Person" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Person.First_Person" />
+				</Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.125" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="Person" type="pos.rules" value="VerbalPOS.VerbalPOSConstants.Person.Second_Person" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="0.0" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" isEnd="True">
+		</State>
+	</Rule>
+	
+	
+	<!-- Verb Followed by verb -->
+	<!--
+	<Rule>
+		<State id="0" isStart="True">
+			<Transition next_state_id="1" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Verb" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="-0.125" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="1" >
+			<Transition next_state_id="2" consume="1">
+				<Conditions>
+					<Condition attribute_name="MainClass" type="pos.rules" value="POS.POSConstants.MainClass.Verb" /></Conditions>
+				<Actions>
+					<Action on_relative_index="0" attribute_name="AddCertainty" type="method" value="-0.125" />
+				</Actions>
+			</Transition>
+		</State>		
+		<State id="2" isEnd="True">
+		</State>
+	</Rule>
+	-->
+</Rules>

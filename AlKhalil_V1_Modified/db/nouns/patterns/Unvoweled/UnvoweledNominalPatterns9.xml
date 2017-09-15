@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1256" ?>
+<patterns>
+		<pattern value="استفالتان" rules="4و6 4ي6" ids="586 587"/>
+		<pattern value="استفالتين" rules="4و6 4ي6" ids="592 593 594 595"/>
+		<pattern value="استفعاءات" rules="45و 45ي" ids="633 634 635 636 637 638 639 640 641 642 643 644"/>
+		<pattern value="استفعاءان" rules="45و 45ي" ids="645"/>
+		<pattern value="استفعاءتا" rules="45و 45ي" ids="656"/>
+		<pattern value="استفعاءتي" rules="45و" ids="658 659"/>
+		<pattern value="استفعاءين" rules="45و" ids="664 665"/>
+		<pattern value="استفعالات" rules="457" ids="597 598 599 600 601 602 603 604 605 606 607 608 669 670 671 672 673 674 675 676 677 678 679 680"/>
+		<pattern value="استفعالان" rules="457" ids="609 681"/>
+		<pattern value="استفعالتا" rules="457" ids="620 694"/>
+		<pattern value="استفعالتي" rules="457" ids="622 623 696 697"/>
+		<pattern value="استفعالين" rules="457" ids="628 629 702 703"/>
+		<pattern value="استيعالات" rules="و57" ids="713 714 715 716 717 718 719 720 721 722 723 724"/>
+		<pattern value="استيعالان" rules="و57" ids="725"/>
+		<pattern value="استيعالتا" rules="و57" ids="738"/>
+		<pattern value="استيعالتي" rules="و57" ids="740 741"/>
+		<pattern value="استيعالين" rules="و57" ids="746 747"/>
+		<pattern value="افتعاءتان" rules="24و" ids="815"/>
+		<pattern value="افتعاءتين" rules="24و" ids="818 819"/>
+		<pattern value="افتعالتان" rules="246" ids="853"/>
+		<pattern value="افتعالتين" rules="246" ids="856 857"/>
+		<pattern value="افتيالتان" rules="2و6" ids="891"/>
+		<pattern value="افتيالتين" rules="2و6" ids="894 895"/>
+		<pattern value="افدعالتان" rules="246" ids="929"/>
+		<pattern value="افدعالتين" rules="246" ids="932 933"/>
+		<pattern value="افديالتان" rules="2و6" ids="965"/>
+		<pattern value="افديالتين" rules="2و6" ids="968 969"/>
+		<pattern value="افطعالتان" rules="246" ids="1003"/>
+		<pattern value="افطعالتين" rules="246" ids="1006 1007"/>
+		<pattern value="افعنلالات" rules="2357" ids="1015 1016 1017 1018 1019 1020 1021 1022 1023 1024 1025 1026"/>
+		<pattern value="افعنلالان" rules="2357" ids="1027"/>
+		<pattern value="افعنلالتا" rules="2357" ids="1040"/>
+		<pattern value="افعنلالتي" rules="2357" ids="1042 1043"/>
+		<pattern value="افعنلالين" rules="2357" ids="1048 1049"/>
+		<pattern value="انفعالتان" rules="346" ids="1079"/>
+		<pattern value="انفعالتين" rules="346" ids="1082 1083"/>
+		<pattern value="متفاعاتان" rules="35و" ids="4954"/>
+		<pattern value="متفاعاتين" rules="35و" ids="4957 4958"/>
+		<pattern value="متفاعلتان" rules="356" ids="4995 5063 5145"/>
+		<pattern value="متفاعلتين" rules="356" ids="4998 4999 5066 5067 5148 5149"/>
+		<pattern value="متفاعيتان" rules="35و" ids="5185"/>
+		<pattern value="متفاعيتين" rules="35و" ids="5188 5189"/>
+		<pattern value="متفعللتان" rules="3456" ids="5356 5397 5633 5683 5731"/>
+		<pattern value="متفعللتين" rules="3456" ids="5359 5360 5400 5401 5636 5637 5686 5687 5734 5735"/>
+		<pattern value="مستفالتان" rules="4و6 4ي6" ids="5878"/>
+		<pattern value="مستفالتين" rules="4و6 4ي6" ids="5881 5882"/>
+		<pattern value="مستفعاتان" rules="45و 45ي" ids="6094"/>
+		<pattern value="مستفعاتين" rules="45و" ids="6097 6098"/>
+		<pattern value="مستفعلتان" rules="456" ids="5990 6117 6189 6271"/>
+		<pattern value="مستفعلتين" rules="456" ids="5993 5994 6120 6121 6192 6193 6274 6275"/>
+		<pattern value="مستفعيتان" rules="45و" ids="6311"/>
+		<pattern value="مستفعيتين" rules="45و" ids="6314 6315"/>
+		<pattern value="مستفيلتان" rules="4و6" ids="6064"/>
+		<pattern value="مستفيلتين" rules="4و6" ids="6067 6068"/>
+		<pattern value="مفعنللتان" rules="2356" ids="9774 9822"/>
+		<pattern value="مفعنللتين" rules="2356" ids="9777 9778 9825 9826"/>
+
+</patterns>

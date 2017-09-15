@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+	<prefixes>
+		<prefixe unvoweledform="" voweledform="" desc="" classe="C1">
+		</prefixe>
+		<prefixe unvoweledform="و" voweledform="وَ" desc="حرف العطف" classe="C1">
+		</prefixe>
+		<prefixe unvoweledform="ف" voweledform="فَ" desc="حرف العطف أو الاستئناف" classe="C1">
+		</prefixe>
+		<prefixe unvoweledform="أ" voweledform="أَ" desc="همزة الاستفهام" classe="C2">
+		</prefixe>
+		<prefixe unvoweledform="أو" voweledform="أَوَ" desc="همزة الاستفهام" classe="C2">
+		</prefixe>
+		<prefixe unvoweledform="أف" voweledform="أَفَ" desc="همزة الاستفهام" classe="C2">
+		</prefixe>
+		<prefixe unvoweledform="ل" voweledform="لَ" desc="حرف الابتداء" classe="C3">
+		</prefixe>
+		<prefixe unvoweledform="ول" voweledform="وَلَ" desc="حرف العطف+حرف الابتداء" classe="C3">
+		</prefixe>
+		<prefixe unvoweledform="فل" voweledform="فَلَ" desc="حرف العطف+حرف الابتداء" classe="C3">
+		</prefixe>
+		<prefixe unvoweledform="ال" voweledform="ال" desc="التعريف" classe="N1">
+		</prefixe>
+		<prefixe unvoweledform="وال" voweledform="وَال" desc="حرف العطف+ال التعريف" classe="N1">
+		</prefixe>
+		<prefixe unvoweledform="فال" voweledform="فَال" desc="حرف العطف+ال التعريف" classe="N1">
+		</prefixe>
+		<prefixe unvoweledform="أال" voweledform="أَال" desc="همزة الاستفهام+ال التعريف" classe="N2">
+		</prefixe>
+		<prefixe unvoweledform="أوال" voweledform="أَوَال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N2">
+		</prefixe>
+		<prefixe unvoweledform="أفال" voweledform="أَفَال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N2">
+		</prefixe>
+		<prefixe unvoweledform="لل" voweledform="لَل" desc="لام التوكيد+ال التعريف" classe="N3">
+		</prefixe>
+		<prefixe unvoweledform="ولل" voweledform="وَلَل" desc="حرف العطف+لام التوكيد+ال التعريف" classe="N3">
+		</prefixe>
+		<prefixe unvoweledform="فلل" voweledform="فَلَل" desc="حرف العطف+لام التوكيد+ال التعريف" classe="N3">
+		</prefixe>
+		<prefixe unvoweledform="ب" voweledform="بِ" desc="حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="وب" voweledform="وَبِ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="فب" voweledform="فَبِ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="أب" voweledform="أَبِ" desc="همزة الاستفهام+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="لب" voweledform="لَبِ" desc="لام التوكيد+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="ل" voweledform="لِ" desc="حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="ول" voweledform="وَلِ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="فل" voweledform="فَلِ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="أل" voweledform="أَلِ" desc="همزة الاستفهام+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="ك" voweledform="كَ" desc="حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="وك" voweledform="وَكَ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="فك" voweledform="فَكَ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="أك" voweledform="أَكَ" desc="همزة الاستفهام+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="لك" voweledform="لَكَ" desc="لام التوكيد+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="و" voweledform="وَ" desc="حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="فو" voweledform="فَوَ" desc="حرف العطف+حرف الجر" classe="N4">
+		</prefixe>
+		<prefixe unvoweledform="بال" voweledform="بِال" desc="حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="وبال" voweledform="وَبِال" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="فبال" voweledform="فَبِال" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أبال" voweledform="أَبِال" desc="همزة الاستفهام+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="لبال" voweledform="لَبِال" desc="لام التوكيد+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أوبال" voweledform="أَوَبِال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أفبال" voweledform="أَفَبِال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="لل" voweledform="لِل" desc="حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="ولل" voweledform="ولِل" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="فلل" voweledform="فَلِل" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أولل" voweledform="أَولِل" desc="همزة الاستفهام+حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أفلل" voweledform="أَفَلِل" desc="همزة الاستفهام+حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="كال" voweledform="كَال" desc="حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="وكال" voweledform="وَكَال" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="فكال" voweledform="فَكَال" desc="حرف العطف+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أكال" voweledform="أَكَال" desc="همزة الاستفهام+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="لكال" voweledform="لَكَال" desc="لام التوكيد+حرف الجر+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أوكال" voweledform="أَوَكَال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="أفكال" voweledform="أَفَكَال" desc="همزة الاستفهام+حرف العطف+ال التعريف" classe="N5">
+		</prefixe>
+		<prefixe unvoweledform="س" voweledform="سَ" desc="سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="وس" voweledform="وَسَ" desc="حرف العطف+سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="فس" voweledform="فَسَ" desc="حرف العطف+سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="أس" voweledform="أَسَ" desc="همزة الاستفهام+سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="أوس" voweledform="أَوَسَ" desc="همزة الاستفهام+حرف العطف+سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="أفس" voweledform="أَفَسَ" desc="همزة الاستفهام+حرف العطف+سين المستقبل القريب" classe="V1">
+		</prefixe>
+		<prefixe unvoweledform="ل" voweledform="لِ" desc="حرف النصب" classe="V2">
+		</prefixe>
+		<prefixe unvoweledform="ول" voweledform="وَلِ" desc="حرف العطف+حرف النصب" classe="V2">
+		</prefixe>
+		<prefixe unvoweledform="فل" voweledform="فَلِ" desc="حرف العطف+حرف النصب" classe="V2">
+		</prefixe>
+		<prefixe unvoweledform="ل" voweledform="لِ" desc="لام الأمر" classe="V3">
+		</prefixe>
+		<prefixe unvoweledform="ول" voweledform="وَلْ" desc="حرف العطف+لام الأمر" classe="V3">
+		</prefixe>
+		<prefixe unvoweledform="فل" voweledform="فَلْ" desc="حرف العطف+لام الأمر" classe="V3">
+		</prefixe>
+
+	</prefixes>

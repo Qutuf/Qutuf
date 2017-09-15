@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+	<suffixes>
+		<suffixe unvoweledform="" voweledform="" desc="" classe="C1">
+		</suffixe>
+		<suffixe unvoweledform="ك" voweledform="كَ" desc="ضمير المخاطب" classe="C2">
+		</suffixe>
+		<suffixe unvoweledform="ك" voweledform="كِ" desc="ضمير المخاطب" classe="C2">
+		</suffixe>
+		<suffixe unvoweledform="كما" voweledform="كُمَا" desc="ضمير المخاطبين" classe="C2">
+		</suffixe>		
+		<suffixe unvoweledform="كم" voweledform="كُمْ" desc="ضمير المخاطبين" classe="C2">
+		</suffixe>		
+		<suffixe unvoweledform="كن" voweledform="كُنَّ" desc="ضمير المخاطبات" classe="C2">
+		</suffixe>
+		<suffixe unvoweledform="ه" voweledform="ه" desc="ضمير الغائب" classe="C3">
+		</suffixe>
+		<suffixe unvoweledform="ها" voweledform="هَا" desc="ضمير الغائبة" classe="C3">
+		</suffixe>
+		<suffixe unvoweledform="هما" voweledform="همَا" desc="ضمير الغائبين" classe="C3">
+		</suffixe>
+		<suffixe unvoweledform="هم" voweledform="همْ" desc="ضمير الغائبين" classe="C3">
+		</suffixe>
+		<suffixe unvoweledform="هن" voweledform="هنَّ" desc="ضمير الغائبات" classe="C3">
+		</suffixe>
+		<suffixe unvoweledform="ني" voweledform="نِي" desc="نون الوقاية+ياء المتكلم" classe="V1">
+		</suffixe>
+		<suffixe unvoweledform="نيه" voweledform="نِيهِ" desc="نون الوقاية+ياء المتكلم+ضمير الغائب" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="نيها" voweledform="نِيهَا" desc="نون الوقاية+ياء المتكلم+ضمير الغائبة" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="نيهما" voweledform="نِيهِمَا" desc="نون الوقاية+ياء المتكلم+ضمير الغائبين" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="نيهم" voweledform="نِيهِمْ" desc="نون الوقاية+ياء المتكلم+ضمير الغائبين" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="نيهن" voweledform="نِيهِنَّ" desc="نون الوقاية+ياء المتكلم+ضمير الغائبات" classe="V2">
+		</suffixe>
+        <suffixe unvoweledform="نا" voweledform="نَا" desc="ضمير المتكلمين" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="ناه" voweledform="نَاهُ" desc="ضمير المتكلمين+ضمير الغائب" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="ناها" voweledform="نَاهَا" desc="ضمير المتكلمين+ضمير الغائبة" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="ناهما" voweledform="نَاهُمَا" desc="ضمير المتكلمين+ضمير الغائبين" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="ناهم" voweledform="نَاهُمْ" desc="ضمير المتكلمين+ضمير الغائبين" classe="V2">
+		</suffixe>
+		<suffixe unvoweledform="ناهن" voweledform="نَاهُنَّ" desc="ضمير المتكلمين+ضمير الغائبات" classe="V2">
+		</suffixe>               
+		<suffixe unvoweledform="كه" voweledform="كَهُ" desc="ضمير المخاطب+ضمير الغائب" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كها" voweledform="كَهَا" desc="ضمير المخاطب+ضمير الغائبة" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهما" voweledform="كَهُمَا" desc="ضمير المخاطب+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهم" voweledform="كَهُمْ" desc="ضمير المخاطب+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهن" voweledform="كَهُنَّ" desc="ضمير المخاطب+ضمير الغائبات" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كه" voweledform="كِهُ" desc="ضمير المخاطبة+ضمير الغائب" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كها" voweledform="كِهَا" desc="ضمير المخاطبة+ضمير الغائبة" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهما" voweledform="كِهُمَا" desc="ضمير المخاطبة+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهم" voweledform="كِهُمْ" desc="ضمير المخاطبة+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كهن" voweledform="كِهُنَّ" desc="ضمير المخاطبة+ضمير الغائبات" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كماه" voweledform="كُمَاهُ" desc="ضمير المخاطبين+ضمير الغائب" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كماها" voweledform="كُمَاهَا" desc="ضمير المخاطبين+ضمير الغائبة" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كماهما" voweledform="كُمَاهُمَا" desc="ضمير المخاطبين+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كماهم" voweledform="كُمَاهُمْ" desc="ضمير المخاطبين+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كماهن" voweledform="كُمَاهُنَّ" desc="ضمير المخاطبين+ضمير الغائبات" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كموه" voweledform="كُمُوهُ" desc="ضمير المخاطبين+ضمير الغائب" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كموها" voweledform="كُمُوهَا" desc="ضمير المخاطبين+ضمير الغائبة" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كموهما" voweledform="كُمُوهُمَا" desc="ضمير المخاطبين+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كموهم" voweledform="كُمُوهُمْ" desc="ضمير المخاطبين+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كموهن" voweledform="كُمُوهُنَّ" desc="ضمير المخاطبين+ضمير الغائبات" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كنه" voweledform="كُنَّهُ" desc="ضمير المخاطبات+ضمير الغائب" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كنها" voweledform="كُنَّهَا" desc="ضمير المخاطبات+ضمير الغائبة" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كنهما" voweledform="كُنَّهُمَا" desc="ضمير المخاطبات+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كنهم" voweledform="كُنَّهُمْ" desc="ضمير المخاطبات+ضمير الغائبين" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="كنهن" voweledform="كُنَّهُنَّ" desc="ضمير المخاطبات+ضمير الغائبات" classe="V3">
+		</suffixe>
+		<suffixe unvoweledform="وني" voweledform="ونِي" desc="نون الوقاية+ياء المتكلم" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="ونيه" voweledform="ونِيهِ" desc="نون الوقاية+ياء المتكلم+ضمير الغائب" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="ونيها" voweledform="ونِيهَا" desc="نون الوقاية+ياء المتكلم+ضمير الغائبة" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="ونيهما" voweledform="ونِيهِمَا" desc="نون الوقاية+ياء المتكلم+ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="ونيهم" voweledform="ونِيهِمْ" desc="نون الوقاية+ياء المتكلم+ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="ونيهن" voweledform="ونِيهِنَّ" desc="نون الوقاية+ياء المتكلم+ضمير الغائبات" classe="V4">
+		</suffixe>
+        <suffixe unvoweledform="ونا" voweledform="ونَا" desc="ضمير المتكلمين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وناه" voweledform="ونَاهُ" desc="ضمير المتكلمين+ضمير الغائب" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وناها" voweledform="ونَاهَا" desc="ضمير المتكلمين+ضمير الغائبة" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وناهما" voweledform="ونَاهُمَا" desc="ضمير المتكلمين+ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وناهم" voweledform="ونَاهُمْ" desc="ضمير المتكلمين+ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وناهن" voweledform="ونَاهُنَّ" desc="ضمير المتكلمين+ضمير الغائبات" classe="V4">
+        </suffixe>
+        <suffixe unvoweledform="وه" voweledform="وهُ" desc="ضمير الغائب" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وها" voweledform="وهَا" desc="ضمير الغائبة" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وهما" voweledform="وهُمَا" desc="ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وهم" voweledform="وهُمْ" desc="ضمير الغائبين" classe="V4">
+		</suffixe>
+		<suffixe unvoweledform="وهن" voweledform="وهُنَّ" desc="ضمير الغائبات" classe="V4">
+        </suffixe>
+		<suffixe unvoweledform="ي" voweledform="ي" desc="ضمير المتكلم" classe="N1">
+		</suffixe>
+	</suffixes>

@@ -5,9 +5,9 @@ Created on ١٥‏/٠٦‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Morphology.Entities.Cliticless import Cliticless;
-from Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
-from Controllers.Morphology.Entities.Particle import *;
+from ....Controllers.Morphology.Entities.Cliticless import Cliticless;
+from ....Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
+from ....Controllers.Morphology.Entities.Particle import *;
 
 
 class SurfaceFormMorphemes(object):

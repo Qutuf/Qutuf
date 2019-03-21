@@ -1,12 +1,9 @@
-from Morphology.Entities.Cliticless import Cliticless
-
-
 '''
 Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.Morphology.Entities.Cliticless import *;
+from ....Controllers.Morphology.Entities.Cliticless import *;
 
 class UnderivedCliticless(Cliticless):
     """

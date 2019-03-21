@@ -3,19 +3,19 @@ Created on ١١‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Lexicon.RootsAndPatternsRepository import *;
-from Models.Lexicon.LettersConstants import *;
-from Models.Lexicon.LettersConstants import *;
-from Models.Tagging.POSTags.CliticlessPOS import *;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants;
+from ...Models.Lexicon.RootsAndPatternsRepository import *;
+from ...Models.Lexicon.LettersConstants import *;
+from ...Models.Lexicon.LettersConstants import *;
+from ...Models.Tagging.POSTags.CliticlessPOS import *;
+from ...Models.Tagging.POSTags.NominalPOS import NominalPOSConstants;
 
-from Controllers.General.ArabicStringUtility import ArabicStringUtility;
-from Controllers.Morphology.Cliticlization.ProcliticsGrammers import ProcliticsGrammers;
-from Controllers.Morphology.Cliticlization.EncliticsGrammers import EncliticsGrammers;
-from Controllers.Morphology.Entities.Particle import *;
-from Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
-from Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
-from Controllers.Morphology.Entities.SurfaceFormMorphemes import SurfaceFormMorphemes;
+from ...Controllers.General.ArabicStringUtility import ArabicStringUtility;
+from ...Controllers.Morphology.Cliticlization.ProcliticsGrammers import ProcliticsGrammers;
+from ...Controllers.Morphology.Cliticlization.EncliticsGrammers import EncliticsGrammers;
+from ...Controllers.Morphology.Entities.Particle import *;
+from ...Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
+from ...Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
+from ...Controllers.Morphology.Entities.SurfaceFormMorphemes import SurfaceFormMorphemes;
 
 
 class MorphologicalAnalyzer(object):

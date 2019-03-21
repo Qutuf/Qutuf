@@ -4,12 +4,12 @@ Created on ١٩‏/٠٣‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Transducers.StatesGraph import StatesGraph;
-from Transducers.State import State;
-from Transducers.TransitionCondition import TransitionCondition;
-from Transducers.TransitionAction import TransitionAction;
-from Transducers.Transition import Transition;
-from Transducers.TransitionActions import TransitionActions;
+from ...Controllers.Transducers.StatesGraph import StatesGraph;
+from ...Controllers.Transducers.State import State;
+from ...Controllers.Transducers.TransitionCondition import TransitionCondition;
+from ...Controllers.Transducers.TransitionAction import TransitionAction;
+from ...Controllers.Transducers.Transition import Transition;
+from ...Controllers.Transducers.TransitionActions import TransitionActions;
 
 
 class TransducersXmlLoader(object):

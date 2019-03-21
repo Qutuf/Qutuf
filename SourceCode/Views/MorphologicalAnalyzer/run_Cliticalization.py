@@ -20,8 +20,8 @@ import io;
 
 
 
-procliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Proclitics.xml';
-encliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Enclitics.xml';
+procliticsXmlFile = '../../Data/MorphologyTransducers/Proclitics.xml';
+encliticsXmlFile = '../../Data/MorphologyTransducers/Enclitics.xml';
 
 
 text = TextEncapsulator();
@@ -31,7 +31,7 @@ text.LoadFromFiles(None, None, \
                    None);
 
 
-f = codecs.open('..\\..\\Data\\Cliticalization_test.txt', 'r', 'utf-8');
+f = codecs.open('../../Data/Cliticalization_test.txt', 'r', 'utf-8');
 string = f.read();
 f.close();
 

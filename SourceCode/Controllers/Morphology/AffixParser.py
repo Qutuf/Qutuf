@@ -4,9 +4,9 @@ Created on ٠٢‏/٠٤‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.Tokenization.TokenType import TokenType;
-from Transducers.StatesGraph import *;
-from Transducers.State import *;
+from ...Controllers.Tokenization.TokenType import TokenType;
+from ..Transducers.StatesGraph import *;
+from ..Transducers.State import *;
 
 
 class AffixParser(object):

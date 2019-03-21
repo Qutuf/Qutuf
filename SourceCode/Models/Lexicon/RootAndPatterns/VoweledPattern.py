@@ -5,8 +5,8 @@ Created on ٢٨‏/٠٤‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Models.Lexicon.RootAndPatterns.Root import *;
-from Models.Tagging.POSTags.CliticlessPOS import *;
+from ...Lexicon.RootAndPatterns.Root import *;
+from ...Tagging.POSTags.CliticlessPOS import *;
 
 
 

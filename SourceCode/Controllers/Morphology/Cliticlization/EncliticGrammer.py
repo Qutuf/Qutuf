@@ -4,16 +4,16 @@ Created on ٢٦‏/٠٦‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.Morphology.Entities.Particle import *;
-from Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
-from Controllers.Morphology.Cliticlization.CliticGrammer import CliticGrammer;
+from ...Morphology.Entities.Particle import *;
+from ...Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
+from ...Morphology.Cliticlization.CliticGrammer import CliticGrammer;
 
 
-from Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
-from Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
-from Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
-from Models.Tagging.POSTags.POS import POSConstants;
+from ....Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
+from ....Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
+from ....Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
+from ....Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
+from ....Models.Tagging.POSTags.POS import POSConstants;
 
 
 

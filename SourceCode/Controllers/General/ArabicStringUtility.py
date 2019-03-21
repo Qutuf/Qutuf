@@ -4,7 +4,7 @@ Created on ٢٨‏/٠٦‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Lexicon.LettersConstants import DiacriticsConstants
+from ...Models.Lexicon.LettersConstants import DiacriticsConstants
 
 class ArabicStringUtility(object):
     """

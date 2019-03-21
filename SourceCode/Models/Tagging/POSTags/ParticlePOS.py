@@ -4,8 +4,8 @@ Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.POS import POS;
-from POSTags.POS import POSConstants;
+from ....Models.Tagging.POSTags.POS import POS;
+from .POS import POSConstants;
 
 class ParticlePOSConstants(POSConstants):
     """

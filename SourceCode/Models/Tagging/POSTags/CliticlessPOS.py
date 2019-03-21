@@ -1,13 +1,10 @@
-from Tagging.POSTags.POS import POSConstants
-from Tagging.POSTags.POS import POS
-
 
 '''
 Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.POS import *;
+from .POS import *;
 
 class CliticlessPOSConstants(POSConstants):
     """

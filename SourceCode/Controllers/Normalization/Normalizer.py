@@ -4,8 +4,8 @@ Created on ١١‏/٠٣‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.TextEntities import *
-from Models.Normalization.NormalizationRulesDict import *
+from ..TextEntities import *
+from ...Models.Normalization.NormalizationRulesDict import *
 
 class Normalizer(object):
     """

@@ -4,7 +4,7 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from TextEntities.Word import *
+from .Word import *
 
 class Sentence(object):
     """

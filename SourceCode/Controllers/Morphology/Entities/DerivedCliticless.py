@@ -5,19 +5,19 @@ Created on ٢٨‏/٠٥‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Morphology.Entities.Cliticless import Cliticless;
-from Controllers.Morphology.Entities.Particle import Particle, ParticleConstants;
+from ....Controllers.Morphology.Entities.Cliticless import Cliticless;
+from ....Controllers.Morphology.Entities.Particle import Particle, ParticleConstants;
 
-from Models.Lexicon.RootAndPatterns.UnvoweledPattern import UnvoweledPattern;
-from Models.Lexicon.RootAndPatterns.VoweledPattern import VoweledPattern;
-from Models.Lexicon.RootAndPatterns.Root import Root;
-from Models.Lexicon.LettersConstants import DiacriticsConstants, HamzaConstants;
+from ....Models.Lexicon.RootAndPatterns.UnvoweledPattern import UnvoweledPattern;
+from ....Models.Lexicon.RootAndPatterns.VoweledPattern import VoweledPattern;
+from ....Models.Lexicon.RootAndPatterns.Root import Root;
+from ....Models.Lexicon.LettersConstants import DiacriticsConstants, HamzaConstants;
 
-from Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
-from Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
-from Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
-from Models.Tagging.POSTags.POS import POSConstants;
+from ....Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
+from ....Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
+from ....Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
+from ....Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
+from ....Models.Tagging.POSTags.POS import POSConstants;
 
 class DerivedCliticless(Cliticless):
     """

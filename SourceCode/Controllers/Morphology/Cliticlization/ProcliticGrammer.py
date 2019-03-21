@@ -4,13 +4,13 @@ Created on ٢٦‏/٠٦‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.Morphology.Cliticlization.CliticGrammer import *;
-from Controllers.Morphology.Entities.Particle import *;
-from Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
-from Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants;
-from Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
-from Models.Tagging.POSTags.POS import POSConstants;
+from ...Morphology.Cliticlization.CliticGrammer import *;
+from ...Morphology.Entities.Particle import *;
+from ....Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants;
+from ....Models.Tagging.POSTags.VerbalPOS import VerbalPOSConstants;
+from ....Models.Tagging.POSTags.NominalPOS import NominalPOSConstants;
+from ....Models.Tagging.POSTags.ParticlePOS import ParticlePOSConstants;
+from ....Models.Tagging.POSTags.POS import POSConstants;
 
 class ProcliticGrammer(CliticGrammer):
     """

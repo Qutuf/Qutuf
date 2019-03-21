@@ -4,11 +4,11 @@ Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.CliticlessPOS import CliticlessPOS,\
+from ....Models.Tagging.POSTags.CliticlessPOS import CliticlessPOS,\
     CliticlessPOSConstants;
-from Models.Tagging.POSTags.POS import POSConstants;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
-from Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
+from ....Models.Tagging.POSTags.POS import POSConstants;
+from ....Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
+from ....Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
 
 class ProperNoun(object):
     """

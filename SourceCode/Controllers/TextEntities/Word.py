@@ -5,13 +5,13 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
-from Controllers.Morphology.Entities.GreedyMorphemes import *;
-from Controllers.Tokenization.TokenType import *;
-from Controllers.General.ArabicStringUtility import *;
-from Models.Lexicon.LettersConstants import *;
-from Controllers.Morphology.Entities.Particle import *;
-from Controllers.Morphology.Entities.DerivedCliticless import *;
+from ...Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
+from ...Controllers.Morphology.Entities.GreedyMorphemes import *;
+from ...Controllers.Tokenization.TokenType import *;
+from ...Controllers.General.ArabicStringUtility import *;
+from ...Models.Lexicon.LettersConstants import *;
+from ...Controllers.Morphology.Entities.Particle import *;
+from ...Controllers.Morphology.Entities.DerivedCliticless import *;
 
 class Word(object):
     """

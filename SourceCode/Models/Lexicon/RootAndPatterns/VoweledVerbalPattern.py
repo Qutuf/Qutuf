@@ -1,14 +1,11 @@
-from Lexicon.RootAndPatterns.VoweledPattern import VoweledPattern
-
-
 '''
 Created on ٢٨‏/٠٤‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Lexicon.RootAndPatterns.Root import *;
-from Models.Lexicon.RootAndPatterns.VoweledPattern import *;
-from Models.Tagging.POSTags.VerbalPOS import *;
+from ...Lexicon.RootAndPatterns.Root import *;
+from ...Lexicon.RootAndPatterns.VoweledPattern import *;
+from ...Tagging.POSTags.VerbalPOS import *;
 
 
 class VoweledVerbalPattern(VoweledPattern):

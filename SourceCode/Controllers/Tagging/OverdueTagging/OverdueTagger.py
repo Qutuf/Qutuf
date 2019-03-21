@@ -5,11 +5,11 @@ Created on ١١‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Tagging.RuleBasedExpertSystemTagger import RuleBasedExpertSystemTagger;
-from Controllers.Morphology.Entities.SurfaceFormMorphemes import SurfaceFormMorphemes; 
-from TextEntities import *
+from ...Tagging.RuleBasedExpertSystemTagger import RuleBasedExpertSystemTagger;
+from ...Morphology.Entities.SurfaceFormMorphemes import SurfaceFormMorphemes; 
+from ...TextEntities import *
 
-from Models.General.TransducersXmlLoader import *
+from ....Models.General.TransducersXmlLoader import *
 
 class OverdueTagger(RuleBasedExpertSystemTagger):
     """

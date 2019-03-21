@@ -5,10 +5,10 @@ Created on ١١‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Tagging.RuleBasedExpertSystemTagger import *;
+from ..RuleBasedExpertSystemTagger import *;
 
-from TextEntities import *
-from Models.General.TransducersXmlLoader import *
+from ...TextEntities import *
+from ....Models.General.TransducersXmlLoader import *
 
 class PrematureTagger(RuleBasedExpertSystemTagger):
     """

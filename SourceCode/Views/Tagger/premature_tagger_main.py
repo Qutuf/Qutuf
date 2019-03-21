@@ -24,7 +24,7 @@ if __name__ == '__main__':
 #    str += 'أو اذا ما بدون همزة.';
 #    str += 'إذا رأيت. ';
 #    str += 'إذا الشعب يوماً أراد الحياة. ';
-    f = codecs.open('..\\..\\Data\\input_test.txt', 'r', 'utf-8');
+    f = codecs.open('../../Data/input_test.txt', 'r', 'utf-8');
     str = f.read();
     print('file encoding: ', f.encoding)
     f.close();
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     prematureTagger.TagStopWords();
     
     
-    prematureTagger.ApplyTaggingRules('..\\..\\Data\\TaggingRepository\\PrematureTaggingRules.xml');
+    prematureTagger.ApplyTaggingRules('../../Data/TaggingRepository/PrematureTaggingRules.xml');
     prematureTagger.InferPrematureTags();
     
     #Print

@@ -1,13 +1,10 @@
-from Morphology.Entities.Morpheme import Morpheme
-
-
 '''
 Created on ٢٨‏/٠٤‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Lexicon.RootAndPatterns.Root import *;
-from Controllers.Morphology.Entities.Morpheme import *;
+from ....Models.Lexicon.RootAndPatterns.Root import *;
+from ....Controllers.Morphology.Entities.Morpheme import *;
 
 
 class Cliticless(Morpheme):

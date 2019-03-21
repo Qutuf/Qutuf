@@ -8,7 +8,7 @@ Created on ٢٩‏/٠٤‏/٢٠١٠
 if __name__ == '__main__':
     import os
     from os.path import join, getsize
-    for root, dirs, files in os.walk('D:\\1\\Learning\\NLP\\برامج\\الخليل\\AlKhalil_2\\db\\nouns\\roots\\'):
+    for root, dirs, files in os.walk('D:/1/Learning/NLP/برامج/الخليل/AlKhalil_2/db/nouns/roots/'):
         for file in files:
             print(file);
         print(''.join([root, "consumes", " "]));

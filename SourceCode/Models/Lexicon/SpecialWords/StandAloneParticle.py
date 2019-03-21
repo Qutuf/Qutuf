@@ -4,8 +4,8 @@ Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.ParticlePOS import *;
-from Controllers.Morphology.Entities.Particle import *;
+from ....Models.Tagging.POSTags.ParticlePOS import *;
+from ....Controllers.Morphology.Entities.Particle import *;
 
 
 class StandAloneParticle(object):

@@ -4,8 +4,8 @@ Created on ١٨‏/٠٧‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from TextEntities import *
-from Models.General.TransducersXmlLoader import *
+from ..TextEntities import *
+from ...Models.General.TransducersXmlLoader import *
 
 class RuleBasedExpertSystemTagger(object):
     '''

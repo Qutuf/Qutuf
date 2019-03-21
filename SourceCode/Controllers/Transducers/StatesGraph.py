@@ -4,8 +4,8 @@ Created on ١٩‏/٠٣‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Transducers.State import State
-from Transducers.TransitionCondition import TransitionCondition
+from .State import State
+from .TransitionCondition import TransitionCondition
 
 class StatesGraph(object):
     """

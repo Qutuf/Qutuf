@@ -16,7 +16,6 @@ class TransitionCondition(object):
     '''
     Type = '';
     AttributeName = '';
-#    Key = '';
     Value = '';
     
 
@@ -26,16 +25,14 @@ class TransitionCondition(object):
         '''
         self.Type = type;
         self.AttributeName = attributeName;
-#        self.Key = key;
         self.Value = value;
         pass
         
     
-    def TestMatch(self, word, actions, charIndexes = None):  
-#        print('-- TestMatch...');
+    def TestMatch(self, word, actions, charIndexes = None): 
         
         if charIndexes == [None]:
-#            if self.Type != 'general':
+#            if self.Typej != 'general':
 #                try:
 #                    word.__getattribute__(self.AttributeName);
 #                except:
@@ -58,21 +55,20 @@ class TransitionCondition(object):
                 if re.search(self.Value, str(eval(self.AttributeName)), re.UNICODE) != None:
                     return True;
             elif self.Type == 'pos.rules':
-                import Models;
-                
+			
+                exec('from ...Models.Tagging.POSTags import *;');
+
                 isSatisfiedForOne = False;
                 conditionFaildForlist = [];
                 for i in actions.OnInnerIndexes:
                     try:
-                        if (eval('Models.Tagging.POSTags.' + self.Value) & \
+                        if (eval(self.Value) & \
                         eval('word.SurfaceFormMorphemes[i].Cliticless.POS.' + self.AttributeName) != 0):
                             isSatisfiedForOne = True;
                         else:
                             conditionFaildForlist.append(i);
-                    except:
-                        x=0;
-#                        print('Evaluation failed! for condition value: ['+self.Value\
-#                              +'] and attribute name: ['+self.AttributeName+']');
+                    except AttributeError:
+                       pass;
                 
                 for i in conditionFaildForlist:
                     actions.OnInnerIndexes.remove(i);
@@ -81,15 +77,8 @@ class TransitionCondition(object):
                 
         else:
             if self.Type == 'str':
-#                print('word.__getattribute__(self.AttributeName) = '+str(word.__getattribute__(self.AttributeName)));
-#                print('word.__getattribute__(String) = '+str(word.__getattribute__('String')));
-#                print('charIndexes = '+str(charIndexes));
-#                print("self.Value == ''.join([word.__getattribute__(self.AttributeName)[x] for x in charIndexes] = " +\
-#                      self.Value + '==' + ''.join([word.__getattribute__(self.AttributeName)[x] for x in charIndexes]));
-                try:
-                
+                try:                
                     if self.Value == ''.join([word.__getattribute__(self.AttributeName)[x] for x in charIndexes]):
-    #                if self.Value == word.__getattribute__(self.AttributeName)[charIndex]:
                         return True;
                 except:
                     print('word.String = ' + word.String);

@@ -5,23 +5,23 @@ Created on ١٥‏/٠٦‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.TextEntities.Word import *;
-from Controllers.Tokenization.Tokenizer import *;
-from Controllers.Normalization.Normalizer import *;
-from Controllers.Morphology.Compounding.CompoundParsing import CompoundParsing;
-from Controllers.Morphology.AffixParser import AffixParser;
-from Controllers.Morphology.MorphologicalAnalyzer import MorphologicalAnalyzer;
-from Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
-from Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
-from Controllers.Tagging.OverdueTagging.OverdueTagger import OverdueTagger;
-from Controllers.Tagging.PrematureTagging.PrematureTagger import PrematureTagger;
+from .Word import *;
+from ...Controllers.Tokenization.Tokenizer import *;
+from ...Controllers.Normalization.Normalizer import *;
+from ...Controllers.Morphology.Compounding.CompoundParsing import CompoundParsing;
+from ...Controllers.Morphology.AffixParser import AffixParser;
+from ...Controllers.Morphology.MorphologicalAnalyzer import MorphologicalAnalyzer;
+from ...Controllers.Morphology.Entities.DerivedCliticless import DerivedCliticless;
+from ...Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
+from ...Controllers.Tagging.OverdueTagging.OverdueTagger import OverdueTagger;
+from ...Controllers.Tagging.PrematureTagging.PrematureTagger import PrematureTagger;
 
-from Models.Lexicon.LettersConstants import ArabicLetters;
-from Models.Lexicon.SpecialWordsRepository import SpecialWordsRepository;
-from Models.Lexicon.RootsAndPatternsRepository import RootsAndPatternsRepository;
-from Models.Lexicon.SpecialWords.StandAloneParticle import *;
-from Models.Lexicon.SpecialWords.ProperNoun import *;
-from Models.General.TransducersXmlLoader import *
+from ...Models.Lexicon.LettersConstants import ArabicLetters;
+from ...Models.Lexicon.SpecialWordsRepository import SpecialWordsRepository;
+from ...Models.Lexicon.RootsAndPatternsRepository import RootsAndPatternsRepository;
+from ...Models.Lexicon.SpecialWords.StandAloneParticle import *;
+from ...Models.Lexicon.SpecialWords.ProperNoun import *;
+from ...Models.General.TransducersXmlLoader import *
 
 
 

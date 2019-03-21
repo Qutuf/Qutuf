@@ -18,3 +18,4 @@ urllib3==1.22
 virtualenv==15.1.0
 virtualenv-clone==0.2.6
 xmltodict==0.11.0
+whitenoise==4.1.2

@@ -12,12 +12,12 @@ class TransitionCondition(object):
      # PyUML: Do not remove this line! # XMI_ID:_qzIId435Ed-gg8GOK1TmhA
     """
     '''
-    State Condition Class
+    State Condition Class 
     '''
     Type = '';
     AttributeName = '';
     Value = '';
-    
+    Key = None;
 
     def __init__(self, type, attributeName, value):
         '''
@@ -90,5 +90,4 @@ class TransitionCondition(object):
                 print('Not implemented!');
         
         return False;
-        pass
     

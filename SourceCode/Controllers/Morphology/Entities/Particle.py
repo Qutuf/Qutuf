@@ -3,9 +3,10 @@ Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
+
 from ....Controllers.Morphology.Entities.Morpheme import *;
-from ....Controllers.Morphology.Entities.Particle import *;
-from ....Models.Lexicon.SpecialWords.StandAloneParticle import *;
+from ....Models.Tagging.POSTags.POS import *;
+from ....Models.Tagging.POSTags.ParticlePOS import *;
 
 
 class ParticleConstants:
@@ -23,7 +24,6 @@ class ParticleConstants:
         StandAlone = 4
         #جميع الاحتمالات
         all_Cases = 7;
-
 
 
 class Particle(Morpheme):

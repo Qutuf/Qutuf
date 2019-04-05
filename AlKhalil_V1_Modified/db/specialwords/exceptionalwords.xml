@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="windows-1256" ?>
 <exceptionalwords>
-		<exceptionalword unvoweledform="الله" voweledform="الله" prefix="#" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="لله" voweledform="لله" prefix="ل" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="والله" voweledform="والله" prefix="و" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="تالله" voweledform="تالله" prefix="ت" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="ولله" voweledform="ولله" prefix="و" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="فلله" voweledform="فلله" prefix="ف" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="بالله" voweledform="بالله" prefix="ب" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="فبالله" voweledform="فبالله" prefix="فب" stem="الله" type="اسم الجلالة" suffix="#"/>
-		<exceptionalword unvoweledform="وبالله" voweledform="وبالله" prefix="وب" stem="الله" type="اسم الجلالة" suffix="#"/>		
+		<exceptionalword unvoweledform="ط§ظ„ظ„ظ‡" voweledform="ط§ظ„ظ„ظ‡" prefix="#" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظ„ظ„ظ‡" voweledform="ظ„ظ„ظ‡" prefix="ظ„" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظˆط§ظ„ظ„ظ‡" voweledform="ظˆط§ظ„ظ„ظ‡" prefix="ظˆ" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="طھط§ظ„ظ„ظ‡" voweledform="طھط§ظ„ظ„ظ‡" prefix="طھ" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظˆظ„ظ„ظ‡" voweledform="ظˆظ„ظ„ظ‡" prefix="ظˆ" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظپظ„ظ„ظ‡" voweledform="ظپظ„ظ„ظ‡" prefix="ظپ" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ط¨ط§ظ„ظ„ظ‡" voweledform="ط¨ط§ظ„ظ„ظ‡" prefix="ط¨" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظپط¨ط§ظ„ظ„ظ‡" voweledform="ظپط¨ط§ظ„ظ„ظ‡" prefix="ظپط¨" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>
+		<exceptionalword unvoweledform="ظˆط¨ط§ظ„ظ„ظ‡" voweledform="ظˆط¨ط§ظ„ظ„ظ‡" prefix="ظˆط¨" stem="ط§ظ„ظ„ظ‡" type="ط§ط³ظ… ط§ظ„ط¬ظ„ط§ظ„ط©" suffix="#"/>		
 		
 </exceptionalwords>

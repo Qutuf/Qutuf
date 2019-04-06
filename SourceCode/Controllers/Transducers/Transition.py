@@ -4,7 +4,7 @@ Created on ٠٢‏/٠٤‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Transducers.State import State
+from .State import State
 
 class Transition(object):
     """

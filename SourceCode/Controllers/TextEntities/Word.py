@@ -5,13 +5,13 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
-from Controllers.Morphology.Entities.GreedyMorphemes import *;
-from Controllers.Tokenization.TokenType import *;
-from Controllers.General.ArabicStringUtility import *;
-from Models.Lexicon.LettersConstants import *;
-from Controllers.Morphology.Entities.Particle import *;
-from Controllers.Morphology.Entities.DerivedCliticless import *;
+from ...Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
+from ...Controllers.Morphology.Entities.GreedyMorphemes import *;
+from ...Controllers.Tokenization.TokenType import *;
+from ...Controllers.General.ArabicStringUtility import *;
+from ...Models.Lexicon.LettersConstants import *;
+from ...Controllers.Morphology.Entities.Particle import *;
+from ...Controllers.Morphology.Entities.DerivedCliticless import *;
 
 class Word(object):
     """
@@ -57,6 +57,8 @@ class Word(object):
     #Possible sequences of the analyzed word:
     #This an array of instances of Morphology.Entities.SurfaceFormMorphemes
     
+    #Optionally used to expose the lemmas on Word level
+    Lemmas = []
        
     def GetAffixationPosibilities(self):
         '''
@@ -174,4 +176,17 @@ class Word(object):
                     topKeys.append(key)
         
         return topKeys
+    pass
+
+    def fillLemmas(self):
+        if len(self.SurfaceFormMorphemes) == 0:
+            self.Lemmas = [self.SecondNormalizationForm]
+        else:
+            self.Lemmas = []
+            for surfaceFormMorphemes in self.SurfaceFormMorphemes:
+                if not surfaceFormMorphemes.Cliticless.UnvoweledForm in self.Lemmas:
+                    self.Lemmas.append(surfaceFormMorphemes.Cliticless.UnvoweledForm)
+                # surfaceFormMorphemes.Proclitics
+                # surfaceFormMorphemes.Cliticless
+                # surfaceFormMorphemes.Enclitics
     pass

@@ -4,9 +4,9 @@ Created on ٢٨‏/٠٦‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Controllers.General.ArabicStringUtility import *;
-from Controllers.Tokenization.TokenType import TokenType;
-from Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
+from ....Controllers.General.ArabicStringUtility import *;
+from ....Controllers.Tokenization.TokenType import TokenType;
+from ....Controllers.Morphology.Entities.SurfaceFormMorphemes import *;
 
 class CompoundParsing(object):
     """

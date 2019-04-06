@@ -4,99 +4,93 @@ Created on ١١‏/٠٥‏/٢٠١٠
 @author: Muhammad Altabba
 '''
 
-from Models.Lexicon.RootsAndPatternsRepository import *;
-from Models.Lexicon.SpecialWords.StandAloneParticle import *;
-from Models.Lexicon.SpecialWords.ProperNoun import *;
+import codecs
+import io
+import os
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))+'/../..'
 
-from Controllers.TextEntities.TextEncapsulator import *;
-from Controllers.TextEntities.Word import *;
-from Controllers.Tokenization.Tokenizer import *;
-from Controllers.Normalization.Normalizer import *;
-from Controllers.Morphology.AffixParser import *;
-from Controllers.Morphology.MorphologicalAnalyzer import *;
-
-import codecs;
-import io;
+from ..Controllers.TextEntities.TextEncapsulator import *
 
 #Set Files Locations Variables:
 '''
 Change the next few parameters as appropriate.
 '''
-baseDirectory = "D:\\Qutuf\\Development\\";
-baseDirectoryOfQutufDB = baseDirectory + "Data\\";
-inputTextFile = baseDirectoryOfQutufDB + 'test_Qutuf.txt';
-baseDirectoryOfAlKhalilDB = baseDirectory + 'AlKhalil_V1_Modified\\db\\';
-ouputXmlFile = 'D:\\Qutuf\\Development\\Output\\test.xml';
-ouputHtmlFile = 'D:\\Qutuf\\Development\\Output\\test.html';
+
+baseDirectory = ROOT_DIR
+baseDirectoryOfQutufDB = os.path.join(baseDirectory,'Data')
+inputTextFile = os.path.join(baseDirectoryOfQutufDB,'test_Qutuf.txt')
+baseDirectoryOfAlKhalilDB = os.path.join(baseDirectory,'AlKhalil_V1_Modified','db/')
+# ouputXmlFile = os.path.join(baseDirectory,'Output','test.xml')
+# ouputHtmlFile = os.path.join(baseDirectory,'Output','test.html')
 
 
 #Set Operations Variables:
-prematureTaggingPositiveThreshold = 0.0;
-prematureTaggingNegativeThreshold = -0.0;
+prematureTaggingPositiveThreshold = 0.0
+prematureTaggingNegativeThreshold = -0.0
 
-overdureTaggingThreshold  = None;
-overdureTaggingTopReservants  = None;
-
-
+overdureTaggingThreshold  = None
+overdureTaggingTopReservants  = None
 
 
 '''
 The next few parameters are fixed do not change them.
 '''
-procliticsXmlFile = baseDirectoryOfQutufDB + 'MorphologyTransducers\\Proclitics.xml';
-encliticsXmlFile = baseDirectoryOfQutufDB + 'MorphologyTransducers\\Enclitics.xml';
-prematureTaggingRulesXmlFile = baseDirectoryOfQutufDB + 'TaggingRepository\\PrematureTaggingRules.xml';
-overdueTaggingRulesXmlFile = baseDirectoryOfQutufDB + 'TaggingRepository\\OverdueTaggingRules.xml';
+procliticsXmlFile = os.path.join(baseDirectoryOfQutufDB, 'MorphologyTransducers','Proclitics.xml')
+encliticsXmlFile = os.path.join(baseDirectoryOfQutufDB,'MorphologyTransducers','Enclitics.xml')
+prematureTaggingRulesXmlFile = os.path.join(baseDirectoryOfQutufDB, 'TaggingRepository','PrematureTaggingRules.xml')
+overdueTaggingRulesXmlFile = os.path.join(baseDirectoryOfQutufDB, 'TaggingRepository','OverdueTaggingRules.xml')
 rootsFolder = 'roots2'
 
+# Initialize:
+text = TextEncapsulator()
 
-#Initialize:
-text = TextEncapsulator();
+# Load Data from Files:
+text.LoadFromFiles(baseDirectoryOfAlKhalilDB, rootsFolder,
+                    procliticsXmlFile, encliticsXmlFile,
+                    prematureTaggingRulesXmlFile,
+                    overdueTaggingRulesXmlFile)
 
-#Load Data from Files:
-text.LoadFromFiles(baseDirectoryOfAlKhalilDB, rootsFolder, \
-                   procliticsXmlFile, encliticsXmlFile,\
-                   prematureTaggingRulesXmlFile, \
-                   overdueTaggingRulesXmlFile);
-
-
-#Read input text into Qutuf:
-f = codecs.open(inputTextFile, 'r', 'utf-8');
-string = f.read();
-f.close();
-text.String = string;
-
-#Operate:
-text.Tokenize();
-
-text.Normalize(2);
-
-text.CompoundParsing();
-
-text.PrematureTagging();
-
-text.ParseClitics();
-
-text.PatternMatching(prematureTaggingPositiveThreshold, prematureTaggingNegativeThreshold);
-         
-text.OverdueTagging(overdureTaggingThreshold, overdureTaggingTopReservants);
+def runit(phrase, functionality, outputFormat):
 
 
-#Print:
-print('---------------------------------------------------------------------------');
-text.Print();
-print('---------------------------------------------------------------------------');
+    # Read input text into Qutuf:
+    text.String = phrase
 
+    # Process:
+    text.Tokenize()
 
-#Write Output Files:
-xmlStreamWriter = io.StringIO();
-text.RenderHtml(xmlStreamWriter);
-writer = codecs.open(ouputHtmlFile, 'w', 'utf-8');
-writer.write(xmlStreamWriter.getvalue());
-writer.close();
+    text.Normalize(2)
 
-xmlStreamWriter = io.StringIO();
-text.RenderXml(xmlStreamWriter);
-writer = codecs.open(ouputXmlFile, 'w', 'utf-8');
-writer.write(xmlStreamWriter.getvalue());
-writer.close();
+    text.CompoundParsing()
+
+    text.PrematureTagging()
+
+    text.ParseClitics()
+
+    text.PatternMatching(prematureTaggingPositiveThreshold, prematureTaggingNegativeThreshold)
+
+    text.OverdueTagging(overdureTaggingThreshold, overdureTaggingTopReservants)
+
+    if functionality == 'lemma':
+        text.exposeLemma()
+
+    # Write Output:
+    
+    xmlStreamWriter = io.StringIO()
+    if outputFormat == 'html':
+        text.RenderHtml(xmlStreamWriter, functionality)
+    else:
+        text.RenderXml(xmlStreamWriter, functionality)
+    output = xmlStreamWriter.getvalue()
+
+    # Log to terminal:
+    # print('---------------------------------------------------------------------------')
+    # text.Print()
+    # print('---------------------------------------------------------------------------')
+
+    # Log to file:
+    # writer = codecs.open(ouputFile, 'w', 'utf-8')
+    # writer.write(output)
+    # writer.close()
+
+    return output

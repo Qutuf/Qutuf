@@ -4,9 +4,9 @@ Created on ٢٨‏/٠٤‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Lexicon.RootAndPatterns.Root import *;
-from Models.Lexicon.RootAndPatterns.VoweledPattern import VoweledPattern;
-from Models.Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
+from ...Lexicon.RootAndPatterns.Root import *;
+from ...Lexicon.RootAndPatterns.VoweledPattern import VoweledPattern;
+from ...Tagging.POSTags.NominalPOS import NominalPOSConstants, NominalPOS;
 
 class VoweledNominalPattern:
     """

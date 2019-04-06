@@ -7,7 +7,7 @@ Created on ١١‏/٠٥‏/٢٠١٠
 from RootsAndPatternsRepository import *;
 
 rap = RootsAndPatternsRepository();
-rap.Load('D:\\temp\\AlKhalil_1\\db\\', 'roots2');
+rap.Load('D:/temp/AlKhalil_1/db/', 'roots2');
 
 print('Nominal Roots = ', len(rap.NominalRoots ));
 for k, v in rap.NominalRoots.items():

@@ -1,14 +1,13 @@
-from Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants
-from Tagging.POSTags.CliticlessPOS import CliticlessPOS
-
 
 '''
 Created on ٢٩‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.CliticlessPOS import *;
-from Models.Tagging.POSTags.POS import *;
+from ....Models.Tagging.POSTags.CliticlessPOS import *;
+from ....Models.Tagging.POSTags.POS import *;
+
+
 
 class NominalPOSConstants(CliticlessPOSConstants):
     """

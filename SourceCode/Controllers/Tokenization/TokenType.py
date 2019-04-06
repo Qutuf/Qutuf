@@ -5,7 +5,7 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Models.Tokenization.TokenizerConstants import TokenTypeDict;
+from ...Models.Tokenization.TokenizerConstants import TokenTypeDict;
 
 
 class TokenType(object):

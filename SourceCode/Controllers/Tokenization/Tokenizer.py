@@ -5,13 +5,13 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.TextEntities.Sentence import *;
-from Controllers.TextEntities.Word import *;
-from Controllers.Tokenization.TokenType import TokenType;
-from Models.Lexicon import *;
-from Models.Lexicon.LettersConstants import ArabicLetters;
-from Models.Tokenization.SentenceSeperatorsList import *;
-from Models.Tokenization.TokenizerConstants import *;
+from ...Controllers.TextEntities.Sentence import *;
+from ...Controllers.TextEntities.Word import *;
+from ...Controllers.Tokenization.TokenType import TokenType;
+from ...Models.Lexicon import *;
+from ...Models.Lexicon.LettersConstants import ArabicLetters;
+from ...Models.Tokenization.SentenceSeperatorsList import *;
+from ...Models.Tokenization.TokenizerConstants import *;
 import re;
 
 class Tokenizer(object):

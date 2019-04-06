@@ -4,7 +4,7 @@ Created on ٢٧‏/٠٥‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Models.Tagging.POSTags.POS import POS;
+from ....Models.Tagging.POSTags.POS import POS;
 
 
 

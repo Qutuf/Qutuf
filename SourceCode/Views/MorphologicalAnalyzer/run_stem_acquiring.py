@@ -116,9 +116,9 @@ def SaveAcquire(unvoweledPatterns, roots, fileName):
 
 
 wordDB = RootsAndPatternsRepository();
-wordDB.Load('D:\\temp\\AlKhalil_1\\db\\', 'roots2');
+wordDB.Load('D:/temp/AlKhalil_1/db/', 'roots2');
 
-SaveAcquire(wordDB.UnvoweledVerbalPatterns, wordDB.VerbalRoots, '..\\..\\Data\\stem_acquiring_verbal.csv')
+SaveAcquire(wordDB.UnvoweledVerbalPatterns, wordDB.VerbalRoots, '../../Data/stem_acquiring_verbal.csv')
 
-SaveAcquire(wordDB.UnvoweledNominalPatterns, wordDB.NominalRoots, '..\\..\\Data\\stem_acquiring_nominal.csv')
+SaveAcquire(wordDB.UnvoweledNominalPatterns, wordDB.NominalRoots, '../../Data/stem_acquiring_nominal.csv')
 

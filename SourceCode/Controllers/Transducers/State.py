@@ -4,7 +4,7 @@ Created on ١٩‏/٠٣‏/٢٠١٠
 
 @Created by: Muhammad Altabba
 '''
-from Transducers.TransitionActions import TransitionActions
+from .TransitionActions import TransitionActions
 
 class State(object):
     """

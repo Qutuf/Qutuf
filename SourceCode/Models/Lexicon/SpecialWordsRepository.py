@@ -6,13 +6,13 @@ Created on ٢٨‏/٠٦‏/٢٠١٠
 '''
 from xml.dom import minidom
 
-from Models.Lexicon.SpecialWords.StandAloneParticle import *;
-from Models.Lexicon.SpecialWords.ProperNoun import *;
-from Models.Lexicon.SpecialWords.ClosedNouns import *;
+from ..Lexicon.SpecialWords.StandAloneParticle import *;
+from ..Lexicon.SpecialWords.ProperNoun import *;
+from ..Lexicon.SpecialWords.ClosedNouns import *;
 
-from Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
-from Models.Tagging.POSTags.POS import POSConstants;
-from Models.Tagging.POSTags.NominalPOS import *;
+from ...Controllers.Morphology.Entities.UnderivedCliticless import UnderivedCliticless;
+from ..Tagging.POSTags.POS import POSConstants;
+from ..Tagging.POSTags.NominalPOS import *;
 
 class SpecialWordsRepository(object):
     """
@@ -46,13 +46,13 @@ class SpecialWordsRepository(object):
 
     def Load(self, basePath):
 
-        self.ProperNouns = self.LoadProperNouns(basePath + 'specialwords\\');
-        self.Particles = self.LoadParticles(basePath + 'specialwords\\');
+        self.ProperNouns = self.LoadProperNouns(basePath + 'specialwords/');
+        self.Particles = self.LoadParticles(basePath + 'specialwords/');
         
         file = 'closednouns.xml';
-        self.ClosedNouns = self.LoadClosedNouns(basePath + 'specialwords\\', file);
+        self.ClosedNouns = self.LoadClosedNouns(basePath + 'specialwords/', file);
         file = 'compoundnouns.xml';
-        self.CompoundNouns = self.LoadClosedNouns(basePath + 'specialwords\\', file);
+        self.CompoundNouns = self.LoadClosedNouns(basePath + 'specialwords/', file);
     pass
 
 

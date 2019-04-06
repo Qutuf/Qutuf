@@ -4,7 +4,7 @@ Created on ١٠‏/٠٣‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from TextEntities.Word import *
+from .Word import *
 
 class Sentence(object):
     """
@@ -15,8 +15,8 @@ class Sentence(object):
     '''
     OriginalString = "";
     
+    # List of instances of the Word class:
     Words = [];
-    #List of instances of the Word class:
 
     def __init__(self, string):
         '''
@@ -33,10 +33,11 @@ class Sentence(object):
             if nextIndex > dotIndex and dotIndex != -1:
                 nextIndex = dotIndex;
             word = Word(self.OriginalString[i:nextIndex])
-            word.TokenType = TokenType();#Write the type
+            word.TokenType = TokenType();
             self.Words.append(word);
             i += nextIndex - i + 1
-           
+        pass
+        
     def __str__(self):
         str = 'Sentence:';
         str += '\tOriginal String:' + self.OriginalString;
@@ -45,4 +46,3 @@ class Sentence(object):
         for i in range(len(self.Words)):
             str += self.Words[i].__str__();
         return str;
-        pass

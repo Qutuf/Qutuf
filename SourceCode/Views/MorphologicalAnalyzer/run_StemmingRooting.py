@@ -22,12 +22,12 @@ from os.path import join, getsize;
 
 
 
-compoundNounsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Proclitics.xml';
-procliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Proclitics.xml';
-encliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Enclitics.xml';
-prematureTaggingRulesXmlFile = '..\\..\\Data\\TaggingRepository\\PrematureTaggingRules.xml';
-overdueTaggingRulesXmlFile = '..\\..\\Data\\TaggingRepository\\OverdueTaggingRules.xml';
-baseDirectoryOfAlKhalil = 'D:\\temp\\AlKhalil_1\\db\\'
+compoundNounsXmlFile = '../../Data/MorphologyTransducers/Proclitics.xml';
+procliticsXmlFile = '../../Data/MorphologyTransducers/Proclitics.xml';
+encliticsXmlFile = '../../Data/MorphologyTransducers/Enclitics.xml';
+prematureTaggingRulesXmlFile = '../../Data/TaggingRepository/PrematureTaggingRules.xml';
+overdueTaggingRulesXmlFile = '../../Data/TaggingRepository/OverdueTaggingRules.xml';
+baseDirectoryOfAlKhalil = 'D:/temp/AlKhalil_1/db/'
 rootsFolder = 'roots2'
 
 prematureTaggingPositiveThreshold = None;
@@ -42,7 +42,7 @@ text.LoadFromFiles(baseDirectoryOfAlKhalil, rootsFolder, \
                    prematureTaggingRulesXmlFile, \
                    overdueTaggingRulesXmlFile);
 
-base = 'D:\\temp\\Latifa2\\'
+base = 'D:/temp/Latifa2/'
 
 
 
@@ -52,7 +52,7 @@ for root, dirs, files in os.walk(base):
             if file.endswith('.txt') and file.find('-') == -1 : 
                 print('\tStart parsing file: ['+file+']');
                 
-                f = codecs.open('\\'.join([root, file]), 'r', 'utf-8');
+                f = codecs.open('/'.join([root, file]), 'r', 'utf-8');
                 string = f.read();
                 f.close();
                 
@@ -70,7 +70,7 @@ for root, dirs, files in os.walk(base):
                 
                 xmlStreamWriter = io.StringIO();
                 text.RenderXmlStemsAndRootsFlat(xmlStreamWriter, rootsAndStems);
-                writer = codecs.open('\\'.join([root, file.replace('.txt','.xml')]), 'w', 'utf-8');
+                writer = codecs.open('/'.join([root, file.replace('.txt','.xml')]), 'w', 'utf-8');
                 writer.write(xmlStreamWriter.getvalue());
                 xmlStreamWriter.close();
                 writer.close();

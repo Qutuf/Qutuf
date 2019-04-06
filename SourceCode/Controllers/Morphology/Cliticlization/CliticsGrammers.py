@@ -5,13 +5,13 @@ Created on ٠٢‏/٠٧‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Controllers.General.ArabicStringUtility import ArabicStringUtility;
-from Controllers.Morphology.Entities.Particle import *;
-from Models.Tagging.POSTags.ParticlePOS import *;
-from Models.Tagging.POSTags.POS import *;
-from Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants, CliticlessPOS;
+from ...General.ArabicStringUtility import ArabicStringUtility;
+from ...Morphology.Entities.Particle import *;
+from ....Models.Tagging.POSTags.ParticlePOS import *;
+from ....Models.Tagging.POSTags.POS import *;
+from ....Models.Tagging.POSTags.CliticlessPOS import CliticlessPOSConstants, CliticlessPOS;
 
-from Controllers.Morphology.Cliticlization.EncliticGrammer import EncliticGrammer;
+from ...Morphology.Cliticlization.EncliticGrammer import EncliticGrammer;
 
 
 class CliticsGrammers(object):

@@ -5,11 +5,11 @@ Created on ٢٩‏/٠٤‏/٢٠١٠
 @Created by: Muhammad Altabba
 '''
 
-from Models.Lexicon.RootAndPatterns.Root import *;
-from Models.Lexicon.RootAndPatterns.UnvoweledPattern import *;
-from Models.Lexicon.RootAndPatterns.VoweledPattern import *;
-from Models.Lexicon.RootAndPatterns.VoweledNominalPattern import *;
-from Models.Lexicon.RootAndPatterns.VoweledVerbalPattern import *;
+from ..Lexicon.RootAndPatterns.Root import *;
+from ..Lexicon.RootAndPatterns.UnvoweledPattern import *;
+from ..Lexicon.RootAndPatterns.VoweledPattern import *;
+from ..Lexicon.RootAndPatterns.VoweledNominalPattern import *;
+from ..Lexicon.RootAndPatterns.VoweledVerbalPattern import *;
 
 from xml.dom import minidom;
 import os;
@@ -51,25 +51,24 @@ class RootsAndPatternsRepository(object):
     def Load(self, basePath, rootsFolder):
         #example: basePath= 'D:\1\Learning\NLP\برامج\الخليل\AlKhalil_1\db\';
                 
-#        self.NominalRoots = self.LoadRoots(basePath + 'nouns\\'+ rootsFolder +'\\');
-        self.VerbalRoots = self.LoadRoots(basePath + 'verbs\\'+ rootsFolder +'\\');
-#        self.UnvoweledNominalPatterns = self.LoadUnvoweledPatterns(basePath + 'nouns\\patterns\\Unvoweled\\');
-        self.UnvoweledVerbalPatterns = self.LoadUnvoweledPatterns(basePath + 'verbs\\patterns\\Unvoweled\\');
-#        self.VoweledNominalPatterns = self.LoadVoweledNominalPatterns(basePath + 'nouns\\patterns\\Voweled\\');
-        self.VoweledVerbalPatterns = self.LoadVoweledVerbalPatterns(basePath + 'verbs\\patterns\\Voweled\\');
+        self.NominalRoots = self.LoadRoots(basePath + 'nouns/'+ rootsFolder +'/');
+        self.VerbalRoots = self.LoadRoots(basePath + 'verbs/'+ rootsFolder +'/');
+        self.UnvoweledNominalPatterns = self.LoadUnvoweledPatterns(basePath + 'nouns/patterns/Unvoweled/');
+        self.UnvoweledVerbalPatterns = self.LoadUnvoweledPatterns(basePath + 'verbs/patterns/Unvoweled/');
+        self.VoweledNominalPatterns = self.LoadVoweledNominalPatterns(basePath + 'nouns/patterns/Voweled/');
+        self.VoweledVerbalPatterns = self.LoadVoweledVerbalPatterns(basePath + 'verbs/patterns/Voweled/');
         
         
     pass
     
+    # Return Roots in an in-memory dictionary:
     def LoadRoots(self, path):
-        #Load Roots:
         
         tempDict = dict();
         
         for root, dirs, files in os.walk(path):
             for file in files:
                 if file.endswith('.xml'):
-#                    tempList = [];
                     tempSubDict = {};
                     xmldoc = minidom.parse(root+file);
                     for xmlRoot in xmldoc.getElementsByTagName('root'):
@@ -77,16 +76,14 @@ class RootsAndPatternsRepository(object):
                         vect = xmlRoot.attributes['vect'].value.split();
                         vect = [int(x) for x in vect];
                         
-#                        tempList.append(Root(val,vect));
                         tempSubDict[val] = Root(val,vect);
-#                    tempDict[file[0]] = tempList;
                     tempDict[file[0]] = tempSubDict;
 
         return tempDict;
     pass
     
+    # Return Unvoweled Patterns in an in-memory dictionary:
     def LoadUnvoweledPatterns(self, path):
-        #Load Roots:
         
         tempDict = {}; #Based on word length.
         
@@ -106,8 +103,8 @@ class RootsAndPatternsRepository(object):
         return tempDict;
     pass
         
+    # Return Voweled Patterns in an in-memory dictionary:
     def LoadVoweledNominalPatterns(self, path):
-        #Load Voweled Nominal Patterns:
         
         tempDict = {}; #Based on word length.
         
@@ -149,8 +146,8 @@ class RootsAndPatternsRepository(object):
         return tempDict;
     pass
         
+    # Return Voweled Verbal Patterns in an in-memory dictionary:
     def LoadVoweledVerbalPatterns(self, path):
-        #Load Voweled Verbal Patterns:
         
         tempDict = {}; #Based on word length.
         

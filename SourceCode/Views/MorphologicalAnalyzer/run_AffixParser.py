@@ -13,15 +13,15 @@ import codecs;
 
 if __name__ == "__main__":
     
-    f = codecs.open('..\\..\\Data\\AffixParser_test.txt', 'r', 'utf-8');
+    f = codecs.open('../../Data/AffixParser_test.txt', 'r', 'utf-8');
     str = f.read();
     print('file encoding: ', f.encoding)
     f.close();
     tok = Tokenizer(str);
     
     ap = AffixParser(tok.Sentences);
-    ap.ParsePrefix('..\\..\\Data\\MorphologyTransducers\\Proclitics.xml');
-    ap.ParseSuffix('..\\..\\Data\\MorphologyTransducers\\Enclitics.xml');
+    ap.ParsePrefix('../../Data/MorphologyTransducers/Proclitics.xml');
+    ap.ParseSuffix('../../Data/MorphologyTransducers/Enclitics.xml');
     
     #Print
     print(tok); 

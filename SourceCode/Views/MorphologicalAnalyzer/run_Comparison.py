@@ -23,12 +23,12 @@ from os.path import join, getsize;
 
 
 
-compoundNounsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Proclitics.xml';
-procliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Proclitics.xml';
-encliticsXmlFile = '..\\..\\Data\\MorphologyTransducers\\Enclitics.xml';
-prematureTaggingRulesXmlFile = '..\\..\\Data\\TaggingRepository\\PrematureTaggingRules.xml';
-overdueTaggingRulesXmlFile = '..\\..\\Data\\TaggingRepository\\OverdueTaggingRules.xml';
-baseDirectoryOfAlKhalil = 'D:\\temp\\AlKhalil_1\\db\\'
+compoundNounsXmlFile = '../../Data/MorphologyTransducers/Proclitics.xml';
+procliticsXmlFile = '../../Data/MorphologyTransducers/Proclitics.xml';
+encliticsXmlFile = '../../Data/MorphologyTransducers/Enclitics.xml';
+prematureTaggingRulesXmlFile = '../../Data/TaggingRepository/PrematureTaggingRules.xml';
+overdueTaggingRulesXmlFile = '../../Data/TaggingRepository/OverdueTaggingRules.xml';
+baseDirectoryOfAlKhalil = 'D:/temp/AlKhalil_1/db/'
 rootsFolder = 'roots2'
 
 
@@ -38,7 +38,7 @@ text.LoadFromFiles(baseDirectoryOfAlKhalil, rootsFolder, \
                    prematureTaggingRulesXmlFile, \
                    overdueTaggingRulesXmlFile);
 
-base = 'D:\\temp\\Latifa2\\'
+base = 'D:/temp/Latifa2/'
 
 
 
@@ -53,7 +53,7 @@ for root, dirs, files in os.walk(base):
                         continue;
                     print('\tStart parsing file: ['+file+']');
                     
-                    f = codecs.open('\\'.join([subroot, file]), 'r', 'utf-8');
+                    f = codecs.open('/'.join([subroot, file]), 'r', 'utf-8');
                     string = f.read();
                     f.close();
                     
@@ -71,7 +71,7 @@ for root, dirs, files in os.walk(base):
                     
                     xmlStreamWriter = io.StringIO();
                     text.RenderTextSimpleStem(xmlStreamWriter);
-                    writer = codecs.open('\\'.join([subroot, file.replace('.txt','-Qutuf.txt')]), 'w', 'utf-8');
+                    writer = codecs.open('/'.join([subroot, file.replace('.txt','-Qutuf.txt')]), 'w', 'utf-8');
                     writer.write(xmlStreamWriter.getvalue());
                     xmlStreamWriter.close();
                     writer.close();

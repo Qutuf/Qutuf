@@ -97,9 +97,10 @@ class ArabicLetters:
 ArabicLetters.AllLetters = [];
 ArabicLetters.AllLetters.append("ء");
 ArabicLetters.AllLetters.append("أ");
+ArabicLetters.AllLetters.append("إ");
+ArabicLetters.AllLetters.append("آ"); 
 ArabicLetters.AllLetters.append("ؤ");
 ArabicLetters.AllLetters.append("ئ");
-ArabicLetters.AllLetters.append("إ"); 
 ArabicLetters.AllLetters.append("ا");
 ArabicLetters.AllLetters.append("ى");
 ArabicLetters.AllLetters.append("ب");

@@ -22,7 +22,7 @@ class Normalizer(object):
         '''
         
     def Normalize(self, sentences, updateBy):
-        #write code here... to normalize Sections>>Paragraphs>>Sentences>>Words
+        # Normalize Sentences >> Words
         for i in range(len(sentences)):
             for j in range(len(sentences[i].Words)):
                 sentences[i].Words[j].FirstNormalizationForm = sentences[i].Words[j].OriginalString;
@@ -30,8 +30,7 @@ class Normalizer(object):
                     sentences[i].Words[j].FirstNormalizationForm = sentences[i].Words[j].FirstNormalizationForm.replace(key, value);
                     if(updateBy == 1):
                         sentences[i].Words[j].String = sentences[i].Words[j].FirstNormalizationForm;
-#    pass
-    
+
         for i in range(len(sentences)):
             for j in range(len(sentences[i].Words)):
                 sentences[i].Words[j].SecondNormalizationForm = sentences[i].Words[j].FirstNormalizationForm ;

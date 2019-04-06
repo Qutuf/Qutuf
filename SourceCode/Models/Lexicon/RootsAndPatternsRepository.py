@@ -61,15 +61,14 @@ class RootsAndPatternsRepository(object):
         
     pass
     
+    # Return Roots in an in-memory dictionary:
     def LoadRoots(self, path):
-        #Load Roots:
         
         tempDict = dict();
         
         for root, dirs, files in os.walk(path):
             for file in files:
                 if file.endswith('.xml'):
-#                    tempList = [];
                     tempSubDict = {};
                     xmldoc = minidom.parse(root+file);
                     for xmlRoot in xmldoc.getElementsByTagName('root'):
@@ -77,16 +76,14 @@ class RootsAndPatternsRepository(object):
                         vect = xmlRoot.attributes['vect'].value.split();
                         vect = [int(x) for x in vect];
                         
-#                        tempList.append(Root(val,vect));
                         tempSubDict[val] = Root(val,vect);
-#                    tempDict[file[0]] = tempList;
                     tempDict[file[0]] = tempSubDict;
 
         return tempDict;
     pass
     
+    # Return Unvoweled Patterns in an in-memory dictionary:
     def LoadUnvoweledPatterns(self, path):
-        #Load Roots:
         
         tempDict = {}; #Based on word length.
         
@@ -106,8 +103,8 @@ class RootsAndPatternsRepository(object):
         return tempDict;
     pass
         
+    # Return Voweled Patterns in an in-memory dictionary:
     def LoadVoweledNominalPatterns(self, path):
-        #Load Voweled Nominal Patterns:
         
         tempDict = {}; #Based on word length.
         
@@ -149,8 +146,8 @@ class RootsAndPatternsRepository(object):
         return tempDict;
     pass
         
+    # Return Voweled Verbal Patterns in an in-memory dictionary:
     def LoadVoweledVerbalPatterns(self, path):
-        #Load Voweled Verbal Patterns:
         
         tempDict = {}; #Based on word length.
         

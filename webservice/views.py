@@ -6,17 +6,19 @@ from django.shortcuts import render
 from SourceCode.Views.run_Qutuf import runit
 
 def index(request):
-    """The home page for learning log"""
-    phrase = request.GET.get('phrase', '')
-    type = request.GET.get('type', '')
+    text = request.GET.get('text', '')
+    outputformat = request.GET.get('outputformat', '')
+    functionality = request.GET.get('functionality', '')
 
-    if phrase and type:
-        output = runit(phrase, type)
-        if type == 'xml':
+    if text:
+        if not outputformat:
+            outputformat = 'html'
+        output = runit(text, functionality, outputformat)
+        if outputformat == 'xml':
             return HttpResponse(output, content_type='text/xml')
-        elif type == 'html':
+        elif outputformat == 'html':
             return HttpResponse(output, content_type='text/html')
-        elif type == 'json':
+        elif outputformat == 'json':
             o = xmltodict.parse(output)
             return HttpResponse(json.dumps(o, ensure_ascii=False).encode('utf8'), content_type='application/json')
 

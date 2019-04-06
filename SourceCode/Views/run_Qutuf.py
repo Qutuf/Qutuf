@@ -50,7 +50,8 @@ text.LoadFromFiles(baseDirectoryOfAlKhalilDB, rootsFolder,
                     prematureTaggingRulesXmlFile,
                     overdueTaggingRulesXmlFile)
 
-def runit(phrase, outputFormat):
+def runit(phrase, functionality, outputFormat):
+
 
     # Read input text into Qutuf:
     text.String = phrase
@@ -70,14 +71,16 @@ def runit(phrase, outputFormat):
 
     text.OverdueTagging(overdureTaggingThreshold, overdureTaggingTopReservants)
 
-    
+    if functionality == 'lemma':
+        text.exposeLemma()
+
     # Write Output:
     
     xmlStreamWriter = io.StringIO()
     if outputFormat == 'html':
-        text.RenderHtml(xmlStreamWriter)
+        text.RenderHtml(xmlStreamWriter, functionality)
     else:
-        text.RenderXml(xmlStreamWriter)
+        text.RenderXml(xmlStreamWriter, functionality)
     output = xmlStreamWriter.getvalue()
 
     # Log to terminal:

@@ -116,11 +116,11 @@ Similar to `outputformat` mentioned above, there is an optional URL parameter to
 
 
 
-`functionality=[lemma]`
+`[functionality=lemma]`
 
 
 
-<a href="https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text= الملك بالملك فالملك وملك والملك">https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text= الملك بالملك فالملك وملك والملك</a>
+<a href='https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text=%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D8%A8%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%81%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%88%D9%85%D9%84%D9%83%20%D9%88%D8%A7%D9%84%D9%85%D9%84%D9%83'>?functionality=lemma&outputformat=html&text=الملك بالملك فالملك وملك والملك</a>
 
 
 

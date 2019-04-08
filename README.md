@@ -4,7 +4,7 @@
 
 Qutuf (قُطُوْف): An Arabic Morphological Analyzer (Including Stemming and Root Extraction) and Part-Of-Speech Tagger as an Expert System.
 
-
+ > Available now as an experimental web-service at https://qutuf.herokuapp.com.
 
 Qutuf is aimed to be the Core of a Framework for Arabic NLP (Natural Language Processing)
 

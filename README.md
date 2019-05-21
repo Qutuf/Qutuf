@@ -4,7 +4,7 @@
 
 Qutuf (قُطُوْف): An Arabic Morphological Analyzer (Including Stemming and Root Extraction) and Part-Of-Speech Tagger as an Expert System.
 
-
+ > Available now as an experimental web-service at https://qutuf.herokuapp.com.
 
 Qutuf is aimed to be the Core of a Framework for Arabic NLP (Natural Language Processing)
 
@@ -116,11 +116,11 @@ Similar to `outputformat` mentioned above, there is an optional URL parameter to
 
 
 
-`functionality=[lemma]`
+`[functionality=lemma]`
 
 
 
-<a href="https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text= الملك بالملك فالملك وملك والملك">https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text= الملك بالملك فالملك وملك والملك</a>
+<a href='https://qutuf.herokuapp.com/?functionality=lemma&outputformat=html&text=%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D8%A8%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%81%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%88%D9%85%D9%84%D9%83%20%D9%88%D8%A7%D9%84%D9%85%D9%84%D9%83'>?functionality=lemma&outputformat=html&text=الملك بالملك فالملك وملك والملك</a>
 
 
 

@@ -76,12 +76,12 @@ def runit(phrase, functionality, outputFormat):
 
     # Write Output:
     
-    xmlStreamWriter = io.StringIO()
+    streamWriter = io.StringIO()
     if outputFormat == 'html':
-        text.RenderHtml(xmlStreamWriter, functionality)
+        text.RenderHtml(streamWriter, functionality)
     else:
-        text.RenderXml(xmlStreamWriter, functionality)
-    output = xmlStreamWriter.getvalue()
+        text.RenderXml(streamWriter, functionality)
+    output = streamWriter.getvalue()
 
     # Log to terminal:
     # print('---------------------------------------------------------------------------')

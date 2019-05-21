@@ -306,7 +306,8 @@ class TextEncapsulator(object):
                             proclitic.POS.WriteArabicText(output);
                             arabicDesc = output.getvalue();
                             output.close();
-                            procliticNode.setAttribute('arabic_description', arabicDesc);
+                            procliticNode.setAttribute('arabic_description', arabicDesc);                            
+                            procliticNode.setAttribute('voweled_text', proclitic.VoweledForm);
                             
                             
                         cliticlessNode = newdoc.createElement('Cliticless');
@@ -349,7 +350,8 @@ class TextEncapsulator(object):
                             enclitic.POS.WriteArabicText(output);
                             arabicDesc = output.getvalue();
                             output.close();                        
-                            encliticNode.setAttribute('arabic_description', arabicDesc);
+                            encliticNode.setAttribute('arabic_description', arabicDesc);                            
+                            encliticNode.setAttribute('voweled_text', enclitic.VoweledForm);
 
        
         newdoc.writexml(stream, '', '\t', '\r\n', 'utf-8');

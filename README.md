@@ -37,33 +37,19 @@ And you can check the free web-service online as you can see in [Qutuf as-a-Serv
 ### Text Processing
 
 
-
     text.Tokenize();
-
-    
 
     text.Normalize(2);
 
-    
-
     text.CompoundParsing();
-
-    
 
     text.PrematureTagging();
 
-    
-
     text.ParseClitics();
-
-    
 
     text.PatternMatching(prematureTaggingPositiveThreshold, prematureTaggingNegativeThreshold);
 
-             
-
     text.OverdueTagging(overdureTaggingThreshold, overdureTaggingTopReservants);
-
 
 
 To understand the processing happen at each step, please refer to the [publication](https://www.academia.edu/8222523/Arabic_Morphological_Analyzer_with_Stemmer_and_Part-Of-Speech_Tagger._The_Core_of_a_Framework_for_Arabic_Language_Processing_as_an_Expert_System)
@@ -183,323 +169,164 @@ The following is the full output of the processed word "غير".
 ```
 
 {  
-
   "Word":[  
-
   {  
-
     "@number_of_possibilities":"10",
-
     "@original_string":"غير",
-
     "SurfaceFormMorphemes":[  
-
       {  
-
         "@certainty":"0.98681640625",
-
         "@voweled_form":"غَيْر",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"حرف, حرف استثناء, ظاهر",
-
         "@tag":"p,x"
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.96484375",
-
         "@voweled_form":"غَيْر",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"اسم, مذكر, مفرد, ؟, مرفوع أو منصوب أو مجرور, اسم جامد, معرَّف بالإضافة أو نكرة, ظاهر",
-
         "@tag":"n,m,s,؟,nag,q,ai",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعْل"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.953125",
-
         "@voweled_form":"غَيْرٌ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"اسم, مذكر, مفرد, ؟, مرفوع, مصدر أصلي, نكرة, ظاهر",
-
         "@tag":"n,m,s,؟,n,g,i",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعْلٌ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.953125",
-
         "@voweled_form":"غَيْرُ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"اسم, مذكر, مفرد, ؟, مرفوع, مصدر أصلي, معرَّف بالإضافة, ظاهر",
-
         "@tag":"n,m,s,؟,n,g,a",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعْلُ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.9296875",
-
         "@voweled_form":"غَيْرَ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"اسم, مذكر, مفرد, ؟, منصوب, مصدر أصلي, معرَّف بالإضافة, ظاهر",
-
         "@tag":"n,m,s,؟,a,g,a",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعْلَ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.859375",
-
         "@voweled_form":"غَيَّرَ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمعلوم, لازمٌ أو مُتعدٍ, ؟, -, مزيد",
-
         "@tag":"v,m,s,t,-,p,a,iobt,؟",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعَّلَ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.8125",
-
         "@voweled_form":"غُيِّرَ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مزيد",
-
         "@tag":"v,m,s,t,-,p,p,iobt,؟",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فُعِّلَ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.8125",
-
         "@voweled_form":"غِيرَ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد",
-
         "@tag":"v,m,s,t,-,p,p,iobt,؟",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فِعلَ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.8125",
-
         "@voweled_form":"غِيرَ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"فعل, مذكر, مفرد, مسند إلى الغائب, -, ماض, مبني للمجهول, لازمٌ أو مُتعدٍ, ؟, -, مجرد",
-
         "@tag":"v,m,s,t,-,p,p,iobt,؟",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غور",
-
           "@unoweled":"فيل",
-
           "@voweled":"فِيلَ"
-
         }
-
         },
-
         "Enclitics":null
-
       }, {  
-
         "@certainty":"0.5",
-
         "@voweled_form":"غَيِّرْ",
-
         "Proclitcs":null,
-
         "Cliticless":{  
-
         "@arabic_description":"فعل, مذكر, مفرد, مسند إلى المخاطب, -, أمر, -, لازمٌ أو مُتعدٍ, ؟, غير مؤكد, مزيد",
-
         "@tag":"v,m,s,s,-,i,-,iobt,؟",
-
         "Pattern":{  
-
           "@Lemma":"غير",
-
           "@root":"غير",
-
           "@unoweled":"فعل",
-
           "@voweled":"فَعِّلْ"
-
         }
-
         },
-
         "Enclitics":{  
-
         "Enclitic":{  
-
           "@arabic_description":"اسم, مذكر, مفرد, ؟, مرفوع, ضمير رفع, معرفة, مضمر/مقدّر",
-
           "@tag":"n,m,s,؟,n,p,d"
-
             }
-
           }
-
         }
-
       ]
-
     }
-
   ]
-
 }
 
 ```

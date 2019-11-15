@@ -2,7 +2,7 @@ certifi==2017.11.5
 chardet==3.0.4
 Django==1.11.7
 django-oauth-toolkit==1.0.0
-djangorestframework==3.7.2
+djangorestframework==3.9.1
 flake8==3.5.0
 gunicorn==19.7.1
 idna==2.6
